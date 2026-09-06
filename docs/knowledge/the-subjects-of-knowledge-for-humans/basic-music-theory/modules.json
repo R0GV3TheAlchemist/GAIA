@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-music-theory",
+  "title": "Basic Music Theory",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "gaia_hears_claimed": false,
+  "art_sibling": "hum.know.basic.basic-art-and-creativity.m04",
+  "linked_subjects": ["hum.know.basic.basic-art-and-creativity", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-physics", "hum.know.basic.reading-and-writing", "hum.know.basic.basic-psychology", "hum.know.basic.basic-history", "hum.know.basic.basic-communication", "hum.know.basic.basic-ethics-and-morality"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-music-theory.m01", "name": "Music Theory Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["music-theory-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-music-theory.m02", "name": "Sound & Acoustics Foundation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-music-theory.m03", "name": "Pitch & Notes System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-music-theory.m04", "name": "Rhythm & Meter System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-music-theory.m05", "name": "Scales & Modes System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-music-theory.m06", "name": "Intervals System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-music-theory.m07", "name": "Chords & Harmony System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-music-theory.m08", "name": "Melody System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-music-theory.m09", "name": "Form & Structure System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-music-theory.m10", "name": "Ear Training System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-music-theory.m11", "name": "Music Notation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-music-theory.m12", "name": "Counterpoint & Voice Leading System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-music-theory.m13", "name": "Harmony & Modulation System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-music-theory.m14", "name": "Music History & Styles System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-music-theory.m15", "name": "Music Technology & Production System", "priority": "high", "status": "specified"},
+    {"ordinal": 16, "id": "hum.know.basic.basic-music-theory.m16", "name": "Music Theory Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
