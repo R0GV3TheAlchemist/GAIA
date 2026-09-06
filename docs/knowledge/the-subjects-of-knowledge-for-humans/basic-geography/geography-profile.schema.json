@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-geography.geography-profile",
+  "title": "GAIA Geographical Thinking Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "thinking", "domains", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-geography"},
+    "module_id": {"const": "hum.know.basic.basic-geography.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "thinking": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["spatial", "place", "scale", "interconnection", "environment", "change"],
+      "properties": {
+        "spatial": {"$ref": "#/$defs/score"},
+        "place": {"$ref": "#/$defs/score"},
+        "scale": {"$ref": "#/$defs/score"},
+        "interconnection": {"$ref": "#/$defs/score"},
+        "environment": {"$ref": "#/$defs/score"},
+        "change": {"$ref": "#/$defs/score"}
+      }
+    },
+    "domains": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["physical", "human"],
+      "properties": {
+        "physical": {"$ref": "#/$defs/score"},
+        "human": {"$ref": "#/$defs/score"}
+      }
+    },
+    "map_literacy": {"$ref": "#/$defs/score"},
+    "gis_literacy": {"$ref": "#/$defs/score"},
+    "place_knowledge": {"$ref": "#/$defs/score"},
+    "environmental_literacy": {"$ref": "#/$defs/score"},
+    "home_place_id": {"type": "string"},
+    "history_subject_id": {"const": "hum.know.basic.basic-history"},
+    "science_subject_id": {"const": "hum.know.basic.basic-science"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

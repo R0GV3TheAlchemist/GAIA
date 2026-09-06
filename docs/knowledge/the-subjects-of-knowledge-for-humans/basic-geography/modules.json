@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-geography",
+  "title": "Basic Geography",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "linked_subjects": ["hum.know.basic.reading-and-writing", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-history", "hum.know.basic.basic-civics", "hum.know.basic.basic-economics", "hum.know.basic.basic-environmental-awareness"],
+  "foundational_concepts": ["space", "place", "boundaries"],
+  "thinking_dimensions": ["spatial-thinking", "place-based-understanding", "scale", "interconnection", "environmental-interaction", "change-over-time"],
+  "domains": ["physical-geography", "human-geography"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-geography.m01", "name": "Geography Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["geography-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-geography.m02", "name": "Spatial Thinking Foundation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-geography.m03", "name": "Map Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-geography.m04", "name": "Physical Geography System", "priority": "critical", "status": "specified", "domain": "physical-geography"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-geography.m05", "name": "Human Geography System", "priority": "critical", "status": "specified", "domain": "human-geography"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-geography.m06", "name": "Place Knowledge System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-geography.m07", "name": "Geographical Thinking Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-geography.m08", "name": "GIS & Geospatial Technology System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-geography.m09", "name": "Geographical Inquiry System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-geography.m10", "name": "Environmental Geography & Sustainability System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-geography.m11", "name": "Cultural & Indigenous Geography System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-geography.m12", "name": "Geographical Skills System", "priority": "high", "status": "specified", "uses": ["hum.know.basic.basic-mathematics.m07"]},
+    {"ordinal": 13, "id": "hum.know.basic.basic-geography.m13", "name": "Place-Based Learning System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-geography.m14", "name": "Geographical Misinformation System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-geography.m15", "name": "Geography Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

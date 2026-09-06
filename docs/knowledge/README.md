@@ -14,14 +14,15 @@ Opened subjects (Human Knowledge):
 - [Basic Mathematics](the-subjects-of-knowledge-for-humans/basic-mathematics/README.md) (`hum.know.basic.basic-mathematics`) — `MAPPED`
 - [Basic Science](the-subjects-of-knowledge-for-humans/basic-science/README.md) (`hum.know.basic.basic-science`) — `MAPPED`
 - [Basic History](the-subjects-of-knowledge-for-humans/basic-history/README.md) (`hum.know.basic.basic-history`) — `MAPPED`
+- [Basic Geography](the-subjects-of-knowledge-for-humans/basic-geography/README.md) (`hum.know.basic.basic-geography`) — `MAPPED`
 
-Literacy, mathematics, science, and history share language, evidence, and quantitative and civic hooks. They are linked systems, not isolated entries.
+These five share language, quantity, evidence, space, and time. Geography is the spatial layer under the others, not a standalone gazetteer.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); four basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); five basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
