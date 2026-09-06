@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-physical-education",
+  "title": "Basic Physical Education",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "delivers_clinical_exercise": false,
+  "gaia_embodied_claimed": false,
+  "art_dance_sibling": "hum.know.basic.basic-art-and-creativity.m06",
+  "linked_subjects": ["hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-nutrition", "hum.know.basic.basic-biology", "hum.know.basic.basic-science", "hum.know.basic.basic-physics", "hum.know.basic.basic-psychology", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-art-and-creativity", "hum.know.basic.basic-ethics-and-morality"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-physical-education.m01", "name": "Physical Education Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["physical-literacy-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-physical-education.m02", "name": "Human Physical Evolution System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-physical-education.m03", "name": "Human Anatomy & Physiology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-physical-education.m04", "name": "Fundamental Movement Skills System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-physical-education.m05", "name": "Physical Fitness System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-physical-education.m06", "name": "Exercise Science System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-physical-education.m07", "name": "Physical Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-physical-education.m08", "name": "Sports & Games System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-physical-education.m09", "name": "Motor Learning & Skill Acquisition System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-physical-education.m10", "name": "Health-Related Fitness System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-physical-education.m11", "name": "Biomechanics System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-physical-education.m12", "name": "Sports Nutrition System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-physical-education.m13", "name": "Injury Prevention & Safety System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-physical-education.m14", "name": "Holistic Physical Education System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-physical-education.m15", "name": "Physical Education Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

@@ -27,14 +27,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Communication](the-subjects-of-knowledge-for-humans/basic-communication/README.md)
 - [Basic Art & Creativity](the-subjects-of-knowledge-for-humans/basic-art-and-creativity/README.md)
 - [Basic Music Theory](the-subjects-of-knowledge-for-humans/basic-music-theory/README.md)
+- [Basic Physical Education](the-subjects-of-knowledge-for-humans/basic-physical-education/README.md)
 
-Music Theory is a sibling of Art M04. Hear, name, and write stay coupled. GAIA does not claim to hear.
+Physical Education is a sibling of Health and Nutrition. GAIA has no body and does not prescribe clinical exercise.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); seventeen basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); eighteen basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
