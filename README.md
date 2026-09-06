@@ -12,7 +12,7 @@ GAIA maintains eight subject databases, split by audience:
 
 ### Knowledge
 
-- Subjects of Knowledge for Humans
+- [Subjects of Knowledge for Humans](docs/knowledge/the-subjects-of-knowledge-for-humans/README.md) — catalog populated (178 subjects)
 - Subjects of Knowledge for Artificial Intelligence
 
 ### Skills
@@ -46,6 +46,6 @@ Each pair is a parallel plane: human-facing curriculum and AI-facing capability 
 - Default branch: `main`
 - Visibility: public
 
-Canonical knowledge content, when added, lives under `docs/knowledge/`.
+Canonical knowledge content lives under [`docs/knowledge/`](docs/knowledge/README.md).
 
 A prior archive of earlier work exists as [`GAIA-Old-Repository`](https://github.com/R0GV3TheAlchemist/GAIA-Old-Repository).
