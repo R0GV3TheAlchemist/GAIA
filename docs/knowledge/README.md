@@ -22,14 +22,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Psychology](the-subjects-of-knowledge-for-humans/basic-psychology/README.md)
 - [Basic Sociology](the-subjects-of-knowledge-for-humans/basic-sociology/README.md)
 - [Basic Philosophy](the-subjects-of-knowledge-for-humans/basic-philosophy/README.md)
+- [Basic Ethics & Morality](the-subjects-of-knowledge-for-humans/basic-ethics-and-morality/README.md)
 
-Philosophy has no house doctrine. GAIA does not claim consciousness.
+Ethics is a sibling of Philosophy, not a merge. No house doctrine. Dilemmas are multi-sided dialogue.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twelve basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); thirteen basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
