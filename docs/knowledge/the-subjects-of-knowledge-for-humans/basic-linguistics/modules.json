@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-linguistics",
+  "title": "Basic Linguistics",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "prescriptive_enabled": false,
+  "gaia_understands_language_claimed": false,
+  "competence": ["phonological", "morphological", "syntactic", "semantic", "pragmatic"],
+  "linked_subjects": ["hum.know.basic.basic-communication", "hum.know.basic.reading-and-writing", "hum.know.basic.basic-anthropology", "hum.know.basic.basic-psychology", "hum.know.basic.basic-philosophy", "hum.know.basic.basic-sociology", "hum.know.basic.basic-technology-literacy", "hum.know.basic.basic-logic-and-reasoning"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-linguistics.m01", "name": "Linguistics Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["linguistics-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-linguistics.m02", "name": "Foundations of Linguistics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-linguistics.m03", "name": "Phonetics & Phonology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-linguistics.m04", "name": "Morphology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-linguistics.m05", "name": "Syntax System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-linguistics.m06", "name": "Semantics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-linguistics.m07", "name": "Pragmatics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-linguistics.m08", "name": "Language Acquisition System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-linguistics.m09", "name": "Sociolinguistics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-linguistics.m10", "name": "Historical Linguistics System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-linguistics.m11", "name": "Language Diversity & Endangerment System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-linguistics.m12", "name": "Computational Linguistics & AI System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-linguistics.m13", "name": "Neurolinguistics System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-linguistics.m14", "name": "Applied Linguistics System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-linguistics.m15", "name": "Linguistics Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

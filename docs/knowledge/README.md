@@ -38,14 +38,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Physics](the-subjects-of-knowledge-for-humans/basic-physics/README.md)
 - [Basic Ecology](the-subjects-of-knowledge-for-humans/basic-ecology/README.md)
 - [Basic Anthropology](the-subjects-of-knowledge-for-humans/basic-anthropology/README.md)
+- [Basic Linguistics](the-subjects-of-knowledge-for-humans/basic-linguistics/README.md)
 
-Anthropology is four fields. Biological race is not a valid taxon. Fieldwork is not a harvest.
+Linguistics is five competence layers. Descriptive, not prescriptive. GAIA does not understand language.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-eight basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-nine basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

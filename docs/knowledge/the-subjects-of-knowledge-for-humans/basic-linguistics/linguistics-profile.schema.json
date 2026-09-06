@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-linguistics.linguistics-profile",
+  "title": "GAIA Linguistics Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "competence", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-linguistics"},
+    "module_id": {"const": "hum.know.basic.basic-linguistics.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "prescriptive_enabled": {"const": false},
+    "gaia_understands_language_claimed": {"const": false},
+    "competence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["phonological", "morphological", "syntactic", "semantic", "pragmatic"],
+      "properties": {
+        "phonological": {"$ref": "#/$defs/score"},
+        "morphological": {"$ref": "#/$defs/score"},
+        "syntactic": {"$ref": "#/$defs/score"},
+        "semantic": {"$ref": "#/$defs/score"},
+        "pragmatic": {"$ref": "#/$defs/score"}
+      }
+    },
+    "communication_subject_id": {"const": "hum.know.basic.basic-communication"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
