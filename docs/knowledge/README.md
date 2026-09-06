@@ -23,14 +23,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Sociology](the-subjects-of-knowledge-for-humans/basic-sociology/README.md)
 - [Basic Philosophy](the-subjects-of-knowledge-for-humans/basic-philosophy/README.md)
 - [Basic Ethics & Morality](the-subjects-of-knowledge-for-humans/basic-ethics-and-morality/README.md)
+- [Basic Logic & Reasoning](the-subjects-of-knowledge-for-humans/basic-logic-and-reasoning/README.md)
 
-Ethics is a sibling of Philosophy, not a merge. No house doctrine. Dilemmas are multi-sided dialogue.
+Logic is a sibling of Philosophy and Mathematics. Deduction, induction, and abduction are trained together. GAIA does not claim to think.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); thirteen basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); fourteen basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

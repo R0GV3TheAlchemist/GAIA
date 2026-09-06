@@ -1,0 +1,31 @@
+{
+  "subject_id": "hum.know.basic.basic-logic-and-reasoning",
+  "title": "Basic Logic & Reasoning",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "gaia_reasoning_claimed": false,
+  "modes": ["deduction", "induction", "abduction", "analogy"],
+  "linked_subjects": ["hum.know.basic.basic-philosophy", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-psychology", "hum.know.basic.basic-civics", "hum.know.basic.reading-and-writing", "hum.know.basic.basic-critical-thinking"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-logic-and-reasoning.m01", "name": "Logic & Reasoning Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["reasoning-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-logic-and-reasoning.m02", "name": "Foundations of Logic System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-logic-and-reasoning.m03", "name": "Deductive Reasoning System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-logic-and-reasoning.m04", "name": "Inductive Reasoning System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-logic-and-reasoning.m05", "name": "Argument Analysis System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-logic-and-reasoning.m06", "name": "Fallacies System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-logic-and-reasoning.m07", "name": "Critical Thinking System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-logic-and-reasoning.m08", "name": "Cognitive Biases System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-logic-and-reasoning.m09", "name": "Formal Logic System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-logic-and-reasoning.m10", "name": "Probabilistic & Statistical Reasoning System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-logic-and-reasoning.m11", "name": "Argumentation Theory System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-logic-and-reasoning.m12", "name": "Scientific Reasoning System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-logic-and-reasoning.m13", "name": "Computational & Mathematical Reasoning System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-logic-and-reasoning.m14", "name": "Analogical & Spatial Reasoning System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-logic-and-reasoning.m15", "name": "Applied Reasoning System", "priority": "high", "status": "specified"},
+    {"ordinal": 16, "id": "hum.know.basic.basic-logic-and-reasoning.m16", "name": "Reasoning Across Cultures System", "priority": "medium", "status": "specified"},
+    {"ordinal": 17, "id": "hum.know.basic.basic-logic-and-reasoning.m17", "name": "Reasoning Development System", "priority": "high", "status": "specified"},
+    {"ordinal": 18, "id": "hum.know.basic.basic-logic-and-reasoning.m18", "name": "Logic & Reasoning Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

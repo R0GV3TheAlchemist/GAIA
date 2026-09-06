@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-logic-and-reasoning.reasoning-profile",
+  "title": "GAIA Reasoning Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "modes", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-logic-and-reasoning"},
+    "module_id": {"const": "hum.know.basic.basic-logic-and-reasoning.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "modes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["deduction", "induction", "abduction", "analogy"],
+      "properties": {
+        "deduction": {"$ref": "#/$defs/score"},
+        "induction": {"$ref": "#/$defs/score"},
+        "abduction": {"$ref": "#/$defs/score"},
+        "analogy": {"$ref": "#/$defs/score"}
+      }
+    },
+    "fallacies": {"$ref": "#/$defs/score"},
+    "probability": {"$ref": "#/$defs/score"},
+    "metacognition": {"$ref": "#/$defs/score"},
+    "spatial": {"$ref": "#/$defs/score"},
+    "ai_reasoning_literacy": {"$ref": "#/$defs/score"},
+    "math_subject_id": {"const": "hum.know.basic.basic-mathematics"},
+    "philosophy_subject_id": {"const": "hum.know.basic.basic-philosophy"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
