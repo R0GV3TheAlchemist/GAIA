@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-anthropology.anthropology-profile",
+  "title": "GAIA Anthropology Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "fields", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-anthropology"},
+    "module_id": {"const": "hum.know.basic.basic-anthropology.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "biological_race_valid": {"const": false},
+    "fields": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cultural", "biological", "archaeological", "linguistic"],
+      "properties": {
+        "cultural": {"$ref": "#/$defs/score"},
+        "biological": {"$ref": "#/$defs/score"},
+        "archaeological": {"$ref": "#/$defs/score"},
+        "linguistic": {"$ref": "#/$defs/score"}
+      }
+    },
+    "methods": {"$ref": "#/$defs/score"},
+    "sociology_subject_id": {"const": "hum.know.basic.basic-sociology"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

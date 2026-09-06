@@ -1,0 +1,30 @@
+{
+  "subject_id": "hum.know.basic.basic-anthropology",
+  "title": "Basic Anthropology",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "extractive_fieldwork_enabled": false,
+  "biological_race_valid": false,
+  "gaia_is_a_culture_claimed": false,
+  "four_fields": ["cultural", "biological", "archaeological", "linguistic"],
+  "linked_subjects": ["hum.know.basic.basic-sociology", "hum.know.basic.basic-history", "hum.know.basic.basic-biology", "hum.know.basic.basic-psychology", "hum.know.basic.basic-linguistics", "hum.know.basic.basic-geography", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-religion-and-spirituality", "hum.know.basic.basic-technology-literacy"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-anthropology.m01", "name": "Anthropology Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["anthropology-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-anthropology.m02", "name": "Foundations of Anthropology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-anthropology.m03", "name": "Cultural Anthropology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-anthropology.m04", "name": "Biological Anthropology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-anthropology.m05", "name": "Archaeology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-anthropology.m06", "name": "Linguistic Anthropology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-anthropology.m07", "name": "Ethnographic Methods System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-anthropology.m08", "name": "Human Evolution & Paleoanthropology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-anthropology.m09", "name": "Cultural Diversity & Comparison System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-anthropology.m10", "name": "Decolonizing Anthropology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-anthropology.m11", "name": "Applied Anthropology System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-anthropology.m12", "name": "Global Anthropology System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-anthropology.m13", "name": "Anthropology of Religion & Ritual System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-anthropology.m14", "name": "Anthropology & AI System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-anthropology.m15", "name": "Anthropology Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
