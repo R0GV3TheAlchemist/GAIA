@@ -12,12 +12,12 @@ GAIA maintains eight subject databases, split by audience:
 
 ### Knowledge
 
-- [Subjects of Knowledge for Humans](docs/knowledge/the-subjects-of-knowledge-for-humans/README.md) — catalog populated (178 subjects)
-- Subjects of Knowledge for Artificial Intelligence
+- [Subjects of Knowledge for Humans](docs/knowledge/the-subjects-of-knowledge-for-humans/README.md) — 178 subjects
+- [Subjects of Knowledge for Artificial Intelligence](docs/knowledge/the-subjects-of-knowledge-for-artificial-intelligence/README.md) — 114 subjects
 
 ### Skills
 
-- Subjects of Skills for Humans
+- [Subjects of Skills for Humans](docs/knowledge/the-subjects-of-skills-for-humans/README.md) — 120 subjects
 - Subjects of Skills for Artificial Intelligence
 
 ### Magic

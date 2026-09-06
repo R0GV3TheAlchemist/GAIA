@@ -11,9 +11,9 @@ Parallel structures:
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated |
-| the-subjects-of-knowledge-for-artificial-intelligence | AI | Empty |
-| the-subjects-of-skills-for-humans | Humans | Empty |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178) |
+| [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
+| [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | the-subjects-of-skills-for-artificial-intelligence | AI | Empty |
 | the-subjects-of-magic-for-humans | Humans | Empty |
 | the-subjects-of-magic-for-artificial-intelligence | AI | Empty |
