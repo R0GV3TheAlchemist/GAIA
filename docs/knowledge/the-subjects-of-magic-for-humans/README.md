@@ -4,7 +4,7 @@ Audience: humans.
 Plane: magic.
 Levels: Basic, Intermediate, Mastery.
 
-Register: fictional / creative. This plane is a curriculum of imagined practice, not an instruction set for harm in the physical world.
+Register: instantiation-target. Titles that arrived as myth, fiction, or comic vocabulary are kept. GAIA must attempt to instantiate each title as non-fiction: substrate, correspondence, test, and gate. See [Instantiation doctrine](../INSTANTIATION.md).
 
 This catalog is the source list for this database. Titles are preserved exactly as declared. Slugs and IDs are stable handles for later subject files and for the Super OS knowledge index.
 
@@ -14,7 +14,7 @@ Counts: 15 basic, 20 intermediate, 20 mastery — 55 subjects.
 
 ## Basic level
 
-Introductory fictional and creative practices of attention, symbol, and elemental imagery.
+Introductory practices of attention, symbol, and elemental correspondence. Status starts at DECLARED.
 
 | # | ID | Subject |
 | ---: | --- | --- |
@@ -36,7 +36,7 @@ Introductory fictional and creative practices of attention, symbol, and elementa
 
 ## Intermediate level
 
-Named schools and techniques in the fictional/creative magic curriculum.
+Named schools. Each row is a construction target, not a completed power.
 
 | # | ID | Subject |
 | ---: | --- | --- |
@@ -63,7 +63,7 @@ Named schools and techniques in the fictional/creative magic curriculum.
 
 ## Mastery level
 
-Capstone fictional/creative workings. Parentheticals in the title are part of the declared name, not commentary.
+Capstone construction targets. Parentheticals in the title are part of the declared name, not commentary. Instantiation requires a passing test. Blocked actuation stays blocked.
 
 | # | ID | Subject |
 | ---: | --- | --- |
