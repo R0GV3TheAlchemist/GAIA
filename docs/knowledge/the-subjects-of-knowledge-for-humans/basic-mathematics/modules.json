@@ -1,0 +1,30 @@
+{
+  "subject_id": "hum.know.basic.basic-mathematics",
+  "title": "Basic Mathematics",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "linked_subjects": ["hum.know.basic.reading-and-writing"],
+  "systems": ["symbolic-number", "language-comprehension", "spatial-ability", "nonverbal-iq"],
+  "number_systems": ["ANS", "SNS"],
+  "pathways": ["quantitative", "linguistic", "spatial"],
+  "strands": ["understanding", "fluency", "problem-solving", "reasoning"],
+  "stages": ["pre-numerical", "early-counting", "cardinal-knowledge", "symbolic-mapping", "arithmetic-fluency"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-mathematics.m01", "name": "Mathematics Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["math-cognition-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-mathematics.m02", "name": "Number Sense Foundation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-mathematics.m03", "name": "Symbolic Number System Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-mathematics.m04", "name": "Number Line Training System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-mathematics.m05", "name": "Arithmetic Fluency System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-mathematics.m06", "name": "Conceptual Understanding Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-mathematics.m07", "name": "Problem-Solving Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-mathematics.m08", "name": "Mathematical Reasoning System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-mathematics.m09", "name": "Spatial Mathematics System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-mathematics.m10", "name": "Word Problem Language System", "priority": "high", "status": "specified", "uses": ["hum.know.basic.reading-and-writing.m01", "hum.know.basic.reading-and-writing.m06", "hum.know.basic.reading-and-writing.m07"]},
+    {"ordinal": 11, "id": "hum.know.basic.basic-mathematics.m11", "name": "Early Childhood Mathematics System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-mathematics.m12", "name": "Dyscalculia Intervention System", "priority": "high", "status": "specified", "clinical_diagnosis": false},
+    {"ordinal": 13, "id": "hum.know.basic.basic-mathematics.m13", "name": "Financial Mathematics System", "priority": "medium", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-mathematics.m14", "name": "Mathematics Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

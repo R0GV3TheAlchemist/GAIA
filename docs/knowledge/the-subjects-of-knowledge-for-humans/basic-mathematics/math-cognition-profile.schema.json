@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-mathematics.math-cognition-profile",
+  "title": "GAIA Mathematical Cognition Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "stage", "systems", "pathways", "strands", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-mathematics"},
+    "module_id": {"const": "hum.know.basic.basic-mathematics.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "stage": {"type": "integer", "minimum": 1, "maximum": 5},
+    "systems": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["symbolic_number", "language_comprehension", "spatial_ability", "nonverbal_iq"],
+      "properties": {
+        "symbolic_number": {"$ref": "#/$defs/score"},
+        "language_comprehension": {"$ref": "#/$defs/score"},
+        "spatial_ability": {"$ref": "#/$defs/score"},
+        "nonverbal_iq": {"$ref": "#/$defs/score"}
+      }
+    },
+    "number_systems": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ans": {"$ref": "#/$defs/score"},
+        "sns": {"$ref": "#/$defs/score"}
+      }
+    },
+    "pathways": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quantitative", "linguistic", "spatial"],
+      "properties": {
+        "quantitative": {"$ref": "#/$defs/score"},
+        "linguistic": {"$ref": "#/$defs/score"},
+        "spatial": {"$ref": "#/$defs/score"}
+      }
+    },
+    "strands": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["understanding", "fluency", "problem_solving", "reasoning"],
+      "properties": {
+        "understanding": {"$ref": "#/$defs/score"},
+        "fluency": {"$ref": "#/$defs/score"},
+        "problem_solving": {"$ref": "#/$defs/score"},
+        "reasoning": {"$ref": "#/$defs/score"}
+      }
+    },
+    "working_memory": {"$ref": "#/$defs/score"},
+    "number_line_estimation": {"$ref": "#/$defs/score"},
+    "literacy_subject_id": {"const": "hum.know.basic.reading-and-writing"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
