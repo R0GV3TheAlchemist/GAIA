@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-civics",
+  "title": "Basic Civics",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "nonpartisan": true,
+  "linked_subjects": ["hum.know.basic.reading-and-writing", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-history", "hum.know.basic.basic-geography", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-critical-thinking", "hum.know.basic.basic-law-and-rights"],
+  "dimensions": ["civic-knowledge", "civic-skills", "civic-dispositions", "civic-ethics"],
+  "habits": ["knowledge", "habits-of-mind", "habits-of-heart"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-civics.m01", "name": "Civics Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["civics-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-civics.m02", "name": "Foundations of Democracy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-civics.m03", "name": "Government Structures System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-civics.m04", "name": "Rights & Responsibilities System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-civics.m05", "name": "Civic Participation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-civics.m06", "name": "Civic Reasoning & Deliberation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-civics.m07", "name": "Constitutional Literacy System", "priority": "high", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-civics.m08", "name": "Digital Citizenship System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-civics.m09", "name": "Global Civics System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-civics.m10", "name": "Civic History System", "priority": "high", "status": "specified", "uses": ["hum.know.basic.basic-history.m07"]},
+    {"ordinal": 11, "id": "hum.know.basic.basic-civics.m11", "name": "Civic Issues & Policy System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-civics.m12", "name": "Civic Simulation & Action System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-civics.m13", "name": "Civic Identity & Agency System", "priority": "critical", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-civics.m14", "name": "Equity & Justice in Civics System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-civics.m15", "name": "Civics Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

@@ -10,19 +10,20 @@ Doctrine: [Instantiation](INSTANTIATION.md) — anything labeled as fiction must
 
 Opened subjects (Human Knowledge):
 
-- [Reading & Writing](the-subjects-of-knowledge-for-humans/reading-and-writing/README.md) (`hum.know.basic.reading-and-writing`) — `MAPPED`
-- [Basic Mathematics](the-subjects-of-knowledge-for-humans/basic-mathematics/README.md) (`hum.know.basic.basic-mathematics`) — `MAPPED`
-- [Basic Science](the-subjects-of-knowledge-for-humans/basic-science/README.md) (`hum.know.basic.basic-science`) — `MAPPED`
-- [Basic History](the-subjects-of-knowledge-for-humans/basic-history/README.md) (`hum.know.basic.basic-history`) — `MAPPED`
-- [Basic Geography](the-subjects-of-knowledge-for-humans/basic-geography/README.md) (`hum.know.basic.basic-geography`) — `MAPPED`
+- [Reading & Writing](the-subjects-of-knowledge-for-humans/reading-and-writing/README.md)
+- [Basic Mathematics](the-subjects-of-knowledge-for-humans/basic-mathematics/README.md)
+- [Basic Science](the-subjects-of-knowledge-for-humans/basic-science/README.md)
+- [Basic History](the-subjects-of-knowledge-for-humans/basic-history/README.md)
+- [Basic Geography](the-subjects-of-knowledge-for-humans/basic-geography/README.md)
+- [Basic Civics](the-subjects-of-knowledge-for-humans/basic-civics/README.md)
 
-These five share language, quantity, evidence, space, and time. Geography is the spatial layer under the others, not a standalone gazetteer.
+All six are `MAPPED`. Civics is nonpartisan: no party field, no candidate ranking.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); five basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); six basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

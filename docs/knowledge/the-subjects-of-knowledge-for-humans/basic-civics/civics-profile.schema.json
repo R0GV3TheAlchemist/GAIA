@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-civics.civics-profile",
+  "title": "GAIA Civic Reasoning Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "dimensions", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-civics"},
+    "module_id": {"const": "hum.know.basic.basic-civics.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "jurisdiction": {"type": "string"},
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["knowledge", "skills", "dispositions", "ethics"],
+      "properties": {
+        "knowledge": {"$ref": "#/$defs/score"},
+        "skills": {"$ref": "#/$defs/score"},
+        "dispositions": {"$ref": "#/$defs/score"},
+        "ethics": {"$ref": "#/$defs/score"}
+      }
+    },
+    "transcendent_thinking": {"$ref": "#/$defs/score"},
+    "digital_citizenship": {"$ref": "#/$defs/score"},
+    "civic_identity": {"$ref": "#/$defs/score"},
+    "civic_agency": {"$ref": "#/$defs/score"},
+    "history_subject_id": {"const": "hum.know.basic.basic-history"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
