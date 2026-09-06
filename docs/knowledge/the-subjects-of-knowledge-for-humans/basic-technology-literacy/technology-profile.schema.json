@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-technology-literacy.technology-profile",
+  "title": "GAIA Technology Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "literacy", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-technology-literacy"},
+    "module_id": {"const": "hum.know.basic.basic-technology-literacy.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "offensive_security_enabled": {"const": false},
+    "literacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["digital", "ai", "safety", "thinking"],
+      "properties": {
+        "digital": {"$ref": "#/$defs/score"},
+        "ai": {"$ref": "#/$defs/score"},
+        "safety": {"$ref": "#/$defs/score"},
+        "thinking": {"$ref": "#/$defs/score"}
+      }
+    },
+    "data": {"$ref": "#/$defs/score"},
+    "ethics": {"$ref": "#/$defs/score"},
+    "wellbeing": {"$ref": "#/$defs/score"},
+    "logic_subject_id": {"const": "hum.know.basic.basic-logic-and-reasoning"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

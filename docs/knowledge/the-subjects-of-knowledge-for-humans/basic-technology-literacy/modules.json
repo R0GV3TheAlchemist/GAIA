@@ -1,0 +1,28 @@
+{
+  "subject_id": "hum.know.basic.basic-technology-literacy",
+  "title": "Basic Technology Literacy",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "gaia_is_the_curriculum_claimed": false,
+  "offensive_security_enabled": false,
+  "linked_subjects": ["hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-logic-and-reasoning", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-civics", "hum.know.basic.basic-economics", "hum.know.basic.basic-psychology", "hum.know.basic.basic-communication", "hum.know.basic.basic-environmental-awareness", "hum.know.basic.basic-computer-science"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-technology-literacy.m01", "name": "Technology Literacy Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["technology-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-technology-literacy.m02", "name": "Foundations of Technology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-technology-literacy.m03", "name": "Digital Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-technology-literacy.m04", "name": "AI Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-technology-literacy.m05", "name": "Cybersecurity & Digital Safety System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-technology-literacy.m06", "name": "Computational Thinking System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-technology-literacy.m07", "name": "Programming & Coding System", "priority": "high", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-technology-literacy.m08", "name": "Data Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-technology-literacy.m09", "name": "Internet & Web Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-technology-literacy.m10", "name": "Emerging Technologies System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-technology-literacy.m11", "name": "Technology Ethics & Society System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-technology-literacy.m12", "name": "Digital Well-Being System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-technology-literacy.m13", "name": "Technology in Everyday Life System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-technology-literacy.m14", "name": "Technology Futures System", "priority": "medium", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-technology-literacy.m15", "name": "Technology Literacy Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
