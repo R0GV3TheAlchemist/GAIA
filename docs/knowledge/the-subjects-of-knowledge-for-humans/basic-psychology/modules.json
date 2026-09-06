@@ -1,0 +1,32 @@
+{
+  "subject_id": "hum.know.basic.basic-psychology",
+  "title": "Basic Psychology",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "clinical_diagnosis": false,
+  "delivers_psychotherapy": false,
+  "linked_subjects": ["hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-nutrition", "hum.know.basic.reading-and-writing", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-biology", "hum.know.basic.basic-civics", "hum.know.basic.basic-economics", "hum.know.basic.basic-history", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-emotional-intelligence"],
+  "frameworks": ["biopsychosocial", "perma", "big-five", "via-strengths"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-psychology.m01", "name": "Psychology Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["psychology-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-psychology.m02", "name": "Foundations of Psychology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-psychology.m03", "name": "Biological Psychology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-psychology.m04", "name": "Sensation, Perception & Consciousness System", "priority": "high", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-psychology.m05", "name": "Learning & Conditioning System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-psychology.m06", "name": "Cognitive Psychology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-psychology.m07", "name": "Developmental Psychology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-psychology.m08", "name": "Social Psychology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-psychology.m09", "name": "Personality Psychology System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-psychology.m10", "name": "Emotion & Motivation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-psychology.m11", "name": "Stress, Health & Coping System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-psychology.m12", "name": "Abnormal Psychology & Mental Health System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-psychology.m13", "name": "Psychological Therapies System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-psychology.m14", "name": "Positive Psychology & Well-Being System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-psychology.m15", "name": "Applied Psychology System", "priority": "high", "status": "specified"},
+    {"ordinal": 16, "id": "hum.know.basic.basic-psychology.m16", "name": "Cross-Cultural & Diversity Psychology System", "priority": "high", "status": "specified"},
+    {"ordinal": 17, "id": "hum.know.basic.basic-psychology.m17", "name": "Psychology Research Methods System", "priority": "high", "status": "specified"},
+    {"ordinal": 18, "id": "hum.know.basic.basic-psychology.m18", "name": "Psychology Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

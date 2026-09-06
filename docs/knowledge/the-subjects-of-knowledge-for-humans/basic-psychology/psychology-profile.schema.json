@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-psychology.psychology-profile",
+  "title": "GAIA Psychological Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "literacy", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-psychology"},
+    "module_id": {"const": "hum.know.basic.basic-psychology.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "clinical_diagnosis": {"const": false},
+    "literacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["foundations", "biological", "cognitive", "developmental", "social", "emotion", "mental_health", "methods"],
+      "properties": {
+        "foundations": {"$ref": "#/$defs/score"},
+        "biological": {"$ref": "#/$defs/score"},
+        "cognitive": {"$ref": "#/$defs/score"},
+        "developmental": {"$ref": "#/$defs/score"},
+        "social": {"$ref": "#/$defs/score"},
+        "emotion": {"$ref": "#/$defs/score"},
+        "mental_health": {"$ref": "#/$defs/score"},
+        "methods": {"$ref": "#/$defs/score"}
+      }
+    },
+    "wellbeing_literacy": {"$ref": "#/$defs/score"},
+    "bias_recognition": {"$ref": "#/$defs/score"},
+    "help_seeking_literacy": {"$ref": "#/$defs/score"},
+    "health_subject_id": {"const": "hum.know.basic.basic-health-and-hygiene"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

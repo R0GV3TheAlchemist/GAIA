@@ -19,14 +19,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Economics](the-subjects-of-knowledge-for-humans/basic-economics/README.md)
 - [Basic Health & Hygiene](the-subjects-of-knowledge-for-humans/basic-health-and-hygiene/README.md)
 - [Basic Nutrition](the-subjects-of-knowledge-for-humans/basic-nutrition/README.md)
+- [Basic Psychology](the-subjects-of-knowledge-for-humans/basic-psychology/README.md)
 
-Nutrition is a sibling of Health & Hygiene, not a merge. Guideline corpora stay labeled. Profiles do not emit diet prescriptions.
+Psychology is literacy and optional well-being practice. It does not diagnose and does not deliver psychotherapy.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); nine basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); ten basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
