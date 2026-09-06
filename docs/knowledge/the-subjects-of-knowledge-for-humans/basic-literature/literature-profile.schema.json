@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-literature.literature-profile",
+  "title": "GAIA Literature Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "forms", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-literature"},
+    "module_id": {"const": "hum.know.basic.basic-literature.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "ghostwrite_enabled": {"const": false},
+    "forms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["poetry", "fiction", "drama", "creative_nonfiction"],
+      "properties": {
+        "poetry": {"$ref": "#/$defs/score"},
+        "fiction": {"$ref": "#/$defs/score"},
+        "drama": {"$ref": "#/$defs/score"},
+        "creative_nonfiction": {"$ref": "#/$defs/score"}
+      }
+    },
+    "analysis": {"$ref": "#/$defs/score"},
+    "literacy_subject_id": {"const": "hum.know.basic.reading-and-writing"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

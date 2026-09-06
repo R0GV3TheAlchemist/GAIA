@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-literature",
+  "title": "Basic Literature",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "ghostwrite_enabled": false,
+  "gaia_is_author_claimed": false,
+  "forms": ["poetry", "fiction", "drama", "creative_nonfiction"],
+  "linked_subjects": ["hum.know.basic.reading-and-writing", "hum.know.basic.basic-mythology", "hum.know.basic.basic-history", "hum.know.basic.basic-linguistics", "hum.know.basic.basic-philosophy", "hum.know.basic.basic-art-and-creativity", "hum.know.basic.basic-psychology", "hum.know.basic.basic-communication"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-literature.m01", "name": "Literature Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["literature-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-literature.m02", "name": "Foundations of Literature System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-literature.m03", "name": "Poetry System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-literature.m04", "name": "Fiction System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-literature.m05", "name": "Drama System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-literature.m06", "name": "Creative Nonfiction & Essay System", "priority": "high", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-literature.m07", "name": "Literary Analysis System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-literature.m08", "name": "Literary Theory & Criticism System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-literature.m09", "name": "World Literature System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-literature.m10", "name": "Literary History System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-literature.m11", "name": "Major Authors & Works System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-literature.m12", "name": "Literature & Society System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-literature.m13", "name": "Creative Writing System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-literature.m14", "name": "AI, Digital Humanities & Literature System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-literature.m15", "name": "Literature Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
