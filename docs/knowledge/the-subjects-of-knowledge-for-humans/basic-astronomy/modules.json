@@ -1,0 +1,28 @@
+{
+  "subject_id": "hum.know.basic.basic-astronomy",
+  "title": "Basic Astronomy",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "gaia_cosmic_claimed": false,
+  "astrology_as_astronomy": false,
+  "linked_subjects": ["hum.know.basic.basic-science", "hum.know.basic.basic-physics", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-geography", "hum.know.basic.basic-history", "hum.know.basic.basic-philosophy", "hum.know.basic.basic-environmental-awareness", "hum.know.basic.basic-technology-literacy", "hum.know.basic.basic-psychology"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-astronomy.m01", "name": "Astronomy Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["astronomy-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-astronomy.m02", "name": "Cosmic Perspective & Scale System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-astronomy.m03", "name": "The Solar System System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-astronomy.m04", "name": "Stars & Stellar Evolution System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-astronomy.m05", "name": "Galaxies & the Milky Way System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-astronomy.m06", "name": "Cosmology & the Universe System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-astronomy.m07", "name": "Exoplanets & Astrobiology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-astronomy.m08", "name": "Observational Astronomy System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-astronomy.m09", "name": "History of Astronomy System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-astronomy.m10", "name": "Space Exploration System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-astronomy.m11", "name": "Astronomical Physics System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-astronomy.m12", "name": "AI & Modern Astronomy System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-astronomy.m13", "name": "Cultural & Indigenous Astronomy System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-astronomy.m14", "name": "Current Discoveries & Frontiers System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-astronomy.m15", "name": "Astronomy Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

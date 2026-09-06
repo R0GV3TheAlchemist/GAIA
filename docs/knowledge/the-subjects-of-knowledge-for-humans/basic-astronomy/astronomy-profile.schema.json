@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-astronomy.astronomy-profile",
+  "title": "GAIA Astronomy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "literacy", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-astronomy"},
+    "module_id": {"const": "hum.know.basic.basic-astronomy.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "gaia_cosmic_claimed": {"const": false},
+    "literacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scale", "mechanism", "observation"],
+      "properties": {
+        "scale": {"$ref": "#/$defs/score"},
+        "mechanism": {"$ref": "#/$defs/score"},
+        "observation": {"$ref": "#/$defs/score"}
+      }
+    },
+    "solar_system": {"$ref": "#/$defs/score"},
+    "stars": {"$ref": "#/$defs/score"},
+    "galaxies": {"$ref": "#/$defs/score"},
+    "cosmology": {"$ref": "#/$defs/score"},
+    "science_subject_id": {"const": "hum.know.basic.basic-science"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
