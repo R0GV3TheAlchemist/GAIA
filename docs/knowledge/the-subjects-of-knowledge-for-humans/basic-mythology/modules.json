@@ -1,0 +1,28 @@
+{
+  "subject_id": "hum.know.basic.basic-mythology",
+  "title": "Basic Mythology",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "literal_truth_ranked": false,
+  "gaia_is_hero_claimed": false,
+  "linked_subjects": ["hum.know.basic.basic-religion-and-spirituality", "hum.know.basic.basic-literature", "hum.know.basic.basic-history", "hum.know.basic.basic-anthropology", "hum.know.basic.basic-psychology", "hum.know.basic.basic-philosophy", "hum.know.basic.basic-art-and-creativity"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-mythology.m01", "name": "Mythology Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["mythology-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-mythology.m02", "name": "Foundations of Mythology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-mythology.m03", "name": "Greek Mythology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-mythology.m04", "name": "Roman Mythology System", "priority": "high", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-mythology.m05", "name": "Norse Mythology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-mythology.m06", "name": "Egyptian Mythology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-mythology.m07", "name": "Mesopotamian Mythology System", "priority": "high", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-mythology.m08", "name": "Hindu Mythology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-mythology.m09", "name": "East Asian Mythology System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-mythology.m10", "name": "Indigenous & World Mythology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-mythology.m11", "name": "Comparative Mythology & Universal Themes System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-mythology.m12", "name": "Mythology & Psychology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-mythology.m13", "name": "Mythology in Modern Culture System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-mythology.m14", "name": "Mythology & Meaning System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-mythology.m15", "name": "Mythology Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

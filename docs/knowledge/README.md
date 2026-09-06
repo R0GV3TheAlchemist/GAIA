@@ -41,14 +41,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Linguistics](the-subjects-of-knowledge-for-humans/basic-linguistics/README.md)
 - [Basic Law & Rights](the-subjects-of-knowledge-for-humans/basic-law-and-rights/README.md)
 - [Basic Religion & Spirituality](the-subjects-of-knowledge-for-humans/basic-religion-and-spirituality/README.md)
+- [Basic Mythology](the-subjects-of-knowledge-for-humans/basic-mythology/README.md)
 
-Religion is descriptive. Secular frames sit in the same catalog. GAIA does not have a soul.
+Mythology is corpus, compare, and function. Greek is one corpus. GAIA is not a hero.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); thirty-one basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); thirty-two basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
