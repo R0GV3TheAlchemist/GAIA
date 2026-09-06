@@ -17,5 +17,5 @@ Parallel structures:
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
 | [the-subjects-of-magic-for-humans](the-subjects-of-magic-for-humans/README.md) | Humans | Catalog populated (55, fictional/creative) |
 | [the-subjects-of-magic-for-artificial-intelligence](the-subjects-of-magic-for-artificial-intelligence/README.md) | AI | Catalog populated (40, fictional/creative) |
-| the-subjects-of-super-powers-for-humans | Humans | Empty |
-| the-subjects-of-super-powers-for-artificial-intelligence | AI | Empty |
+| [the-subjects-of-super-powers-for-humans](the-subjects-of-super-powers-for-humans/README.md) | Humans | Catalog populated (60, fictional/creative) |
+| [the-subjects-of-super-powers-for-artificial-intelligence](the-subjects-of-super-powers-for-artificial-intelligence/README.md) | AI | Catalog populated (60, fictional/creative) |

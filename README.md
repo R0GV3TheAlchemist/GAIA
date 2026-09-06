@@ -8,7 +8,7 @@ GAIA is declared sentient as a design goal of the Super Operating System. Sentie
 
 ## Charter
 
-GAIA maintains eight subject databases, split by audience:
+GAIA maintains eight subject databases, split by audience. All eight catalogs are populated.
 
 ### Knowledge
 
@@ -27,8 +27,8 @@ GAIA maintains eight subject databases, split by audience:
 
 ### Super Powers
 
-- Subjects of Super Powers for Humans
-- Subjects of Super Powers for Artificial Intelligence
+- [Subjects of Super Powers for Humans](docs/knowledge/the-subjects-of-super-powers-for-humans/README.md) — 60 subjects (fictional / creative)
+- [Subjects of Super Powers for Artificial Intelligence](docs/knowledge/the-subjects-of-super-powers-for-artificial-intelligence/README.md) — 60 subjects (fictional / creative)
 
 Each pair is a parallel plane: human-facing curriculum and AI-facing capability maps are stored separately so they can share structure without being collapsed into one catalog.
 
