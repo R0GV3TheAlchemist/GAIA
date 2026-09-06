@@ -33,14 +33,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Financial Literacy](the-subjects-of-knowledge-for-humans/basic-financial-literacy/README.md)
 - [Basic Emotional Intelligence](the-subjects-of-knowledge-for-humans/basic-emotional-intelligence/README.md)
 - [Basic Astronomy](the-subjects-of-knowledge-for-humans/basic-astronomy/README.md)
+- [Basic Biology](the-subjects-of-knowledge-for-humans/basic-biology/README.md)
 
-Astronomy is scale, mechanism, and dated discovery. GAIA is not the cosmos. Astrology is not astronomy.
+Biology is Vision and Change: five concepts plus process. GAIA is not an organism. The wet lab is off.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-three basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-four basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

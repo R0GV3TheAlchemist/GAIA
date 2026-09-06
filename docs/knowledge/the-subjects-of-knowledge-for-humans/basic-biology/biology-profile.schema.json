@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-biology.biology-profile",
+  "title": "GAIA Biology Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "concepts", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-biology"},
+    "module_id": {"const": "hum.know.basic.basic-biology.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "delivers_clinical_care": {"const": false},
+    "wet_lab_enabled": {"const": false},
+    "concepts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evolution", "structure_function", "information", "energy_matter", "systems"],
+      "properties": {
+        "evolution": {"$ref": "#/$defs/score"},
+        "structure_function": {"$ref": "#/$defs/score"},
+        "information": {"$ref": "#/$defs/score"},
+        "energy_matter": {"$ref": "#/$defs/score"},
+        "systems": {"$ref": "#/$defs/score"}
+      }
+    },
+    "process_of_science": {"$ref": "#/$defs/score"},
+    "science_subject_id": {"const": "hum.know.basic.basic-science"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

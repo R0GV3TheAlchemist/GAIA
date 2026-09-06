@@ -1,0 +1,30 @@
+{
+  "subject_id": "hum.know.basic.basic-biology",
+  "title": "Basic Biology",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "delivers_clinical_care": false,
+  "wet_lab_enabled": false,
+  "gaia_is_alive_claimed": false,
+  "vision_and_change_concepts": ["evolution", "structure_and_function", "information_flow", "energy_and_matter", "systems"],
+  "linked_subjects": ["hum.know.basic.basic-science", "hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-nutrition", "hum.know.basic.basic-environmental-awareness", "hum.know.basic.basic-psychology", "hum.know.basic.basic-chemistry", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-technology-literacy", "hum.know.basic.basic-mathematics"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-biology.m01", "name": "Biology Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["biology-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-biology.m02", "name": "Foundations of Life System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-biology.m03", "name": "Cell Biology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-biology.m04", "name": "Genetics & Heredity System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-biology.m05", "name": "Evolution System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-biology.m06", "name": "Ecology & Ecosystems System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-biology.m07", "name": "Physiology & Body Systems System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-biology.m08", "name": "Microbiology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-biology.m09", "name": "Plant Biology System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-biology.m10", "name": "Animal Biology & Diversity System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-biology.m11", "name": "Biotechnology & Synthetic Biology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-biology.m12", "name": "Neuroscience & Brain Biology System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-biology.m13", "name": "Environmental Biology & Conservation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-biology.m14", "name": "Biology of Health & Disease System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-biology.m15", "name": "Biology Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
