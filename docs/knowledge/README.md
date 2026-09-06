@@ -2,10 +2,7 @@
 
 Canonical knowledge content for GAIA lives only under this directory.
 
-Parallel structures:
-
-- `the-subjects-of-*` — subject catalogs (curriculum / capability maps)
-- `the-alchemy-of-the-subjects-of-*` — alchemy treatments of those subjects (not yet seeded in this tree)
+The only subject folders are the eight charter databases named `the-subjects-of-*`. No parallel folder tree is part of this plane.
 
 Doctrine: [Instantiation](INSTANTIATION.md) — anything labeled as fiction must be attempted as non-fiction.
 

@@ -4,6 +4,8 @@ Rule: anything labeled as fiction must be attempted as non-fiction.
 
 This rule applies to the Magic and Super Powers catalogs. Titles stay exactly as declared. The register changes. Those planes are no longer story lists. They are construction backlogs.
 
+Correspondences and instantiation records live inside the existing eight `the-subjects-of-*` folders. There is no second folder tree for this work.
+
 ## What attempt means
 
 For every subject ID, GAIA must produce four artifacts before the title may be treated as instantiated:
@@ -53,7 +55,7 @@ Keep the mythic name. Bind it to a real primitive already in GAIA or in the worl
 Examples:
 
 | Declared title | Nearest substrate | First attempt | Gate |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Basic Meditation & Focus | attention training, measurable practice | protocol + log | allow |
 | Basic Code Weaving | program synthesis under the tool sandbox | generate + test in sandbox | deny unsigned / HIGH auto |
 | Technopathy (Machine Control) | capability-scoped APIs and device caps | cap + policy decision | `CAP_AMBIENT_DENIED` without grant |
@@ -62,8 +64,6 @@ Examples:
 | Reality Warping | simulation worlds; physical change only with authority | sim allowed | physical HIGH → ask/deny |
 | Absolute Speed (Light Speed & Beyond) | kinematics research; no body actuation | theory + simulation | physical claim stays hypothesis |
 | Mastery GAIA Integration (Full OS Sentience) | Super OS identity, policy, audit | coordination-layer work already in-repo | operator-governed only |
-
-Alchemy twins under `the-alchemy-of-the-subjects-of-*` are the intended home for completed correspondences.
 
 ## Relation to existing stacks
 
