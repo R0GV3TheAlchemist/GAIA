@@ -12,14 +12,15 @@ Opened subjects (Human Knowledge):
 
 - [Reading & Writing](the-subjects-of-knowledge-for-humans/reading-and-writing/README.md) (`hum.know.basic.reading-and-writing`) — `MAPPED`
 - [Basic Mathematics](the-subjects-of-knowledge-for-humans/basic-mathematics/README.md) (`hum.know.basic.basic-mathematics`) — `MAPPED`
+- [Basic Science](the-subjects-of-knowledge-for-humans/basic-science/README.md) (`hum.know.basic.basic-science`) — `MAPPED`
 
-Those two share working memory, executive function, and language comprehension. They are linked systems, not isolated entries.
+Literacy, mathematics, and science share language, working memory, quantitative practice, and communication. They are linked systems, not isolated entries.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); Reading & Writing and Basic Mathematics opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); Reading & Writing, Basic Mathematics, Basic Science opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

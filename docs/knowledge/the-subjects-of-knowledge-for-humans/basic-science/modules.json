@@ -1,0 +1,38 @@
+{
+  "subject_id": "hum.know.basic.basic-science",
+  "title": "Basic Science",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "linked_subjects": [
+    "hum.know.basic.reading-and-writing",
+    "hum.know.basic.basic-mathematics",
+    "hum.know.basic.basic-ethics-and-morality",
+    "hum.know.basic.basic-environmental-awareness",
+    "hum.know.basic.basic-technology-literacy",
+    "hum.know.basic.basic-critical-thinking"
+  ],
+  "dimensions": ["disciplinary-core-ideas", "science-engineering-practices", "crosscutting-concepts"],
+  "domains": ["physical-science", "life-science", "earth-and-space-science", "engineering-and-technology"],
+  "practices": ["asking-questions-and-defining-problems", "developing-and-using-models", "planning-and-carrying-out-investigations", "analyzing-and-interpreting-data", "using-mathematics-and-computational-thinking", "constructing-explanations-and-designing-solutions", "engaging-in-argument-from-evidence", "obtaining-evaluating-and-communicating-information"],
+  "crosscutting": ["patterns", "cause-and-effect", "scale-proportion-and-quantity", "systems-and-system-models", "energy-and-matter", "structure-and-function", "stability-and-change"],
+  "pisa_2025": ["environmental-awareness", "environmental-concern", "environmental-agency", "science-capital", "digital-science-literacy"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-science.m01", "name": "Science Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["science-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-science.m02", "name": "Physical Science System", "priority": "critical", "status": "specified", "domain": "physical-science"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-science.m03", "name": "Life Science System", "priority": "critical", "status": "specified", "domain": "life-science"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-science.m04", "name": "Earth & Space Science System", "priority": "critical", "status": "specified", "domain": "earth-and-space-science"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-science.m05", "name": "Engineering & Technology System", "priority": "critical", "status": "specified", "domain": "engineering-and-technology"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-science.m06", "name": "Science & Engineering Practices Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-science.m07", "name": "Crosscutting Concepts Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-science.m08", "name": "Virtual Science Laboratory", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-science.m09", "name": "Scientific Inquiry Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-science.m10", "name": "Environmental Science & Sustainability System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-science.m11", "name": "Scientific Literacy & Misinformation System", "priority": "high", "status": "specified", "uses": ["hum.know.basic.reading-and-writing.m06", "hum.know.basic.reading-and-writing.m07", "hum.know.basic.reading-and-writing.m12"]},
+    {"ordinal": 12, "id": "hum.know.basic.basic-science.m12", "name": "Early Childhood Science System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-science.m13", "name": "Computational Thinking in Science System", "priority": "high", "status": "specified", "uses": ["hum.know.basic.basic-mathematics.m07", "hum.know.basic.basic-mathematics.m08"]},
+    {"ordinal": 14, "id": "hum.know.basic.basic-science.m14", "name": "Science Identity & Career System", "priority": "medium", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-science.m15", "name": "Science Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

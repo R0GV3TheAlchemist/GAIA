@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-science.science-profile",
+  "title": "GAIA 3D Science Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "domains", "practices", "crosscutting", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-science"},
+    "module_id": {"const": "hum.know.basic.basic-science.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "developmental_band": {"type": "string", "enum": ["early-causal", "evidence-talk", "guided-investigation", "open-inquiry", "adult"]},
+    "domains": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["physical", "life", "earth_space", "engineering"],
+      "properties": {
+        "physical": {"$ref": "#/$defs/score"},
+        "life": {"$ref": "#/$defs/score"},
+        "earth_space": {"$ref": "#/$defs/score"},
+        "engineering": {"$ref": "#/$defs/score"}
+      }
+    },
+    "practices": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ask", "model", "investigate", "analyze", "compute", "explain", "argue", "communicate"],
+      "properties": {
+        "ask": {"$ref": "#/$defs/score"},
+        "model": {"$ref": "#/$defs/score"},
+        "investigate": {"$ref": "#/$defs/score"},
+        "analyze": {"$ref": "#/$defs/score"},
+        "compute": {"$ref": "#/$defs/score"},
+        "explain": {"$ref": "#/$defs/score"},
+        "argue": {"$ref": "#/$defs/score"},
+        "communicate": {"$ref": "#/$defs/score"}
+      }
+    },
+    "crosscutting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["patterns", "cause_effect", "scale", "systems", "energy_matter", "structure_function", "stability_change"],
+      "properties": {
+        "patterns": {"$ref": "#/$defs/score"},
+        "cause_effect": {"$ref": "#/$defs/score"},
+        "scale": {"$ref": "#/$defs/score"},
+        "systems": {"$ref": "#/$defs/score"},
+        "energy_matter": {"$ref": "#/$defs/score"},
+        "structure_function": {"$ref": "#/$defs/score"},
+        "stability_change": {"$ref": "#/$defs/score"}
+      }
+    },
+    "environmental": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "awareness": {"$ref": "#/$defs/score"},
+        "concern": {"$ref": "#/$defs/score"},
+        "agency": {"$ref": "#/$defs/score"}
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "science_capital": {"$ref": "#/$defs/score"},
+        "self_efficacy": {"$ref": "#/$defs/score"},
+        "career_interest": {"$ref": "#/$defs/score"}
+      }
+    },
+    "digital_science_literacy": {"$ref": "#/$defs/score"},
+    "inquiry_level": {"type": "string", "enum": ["structured", "guided", "open"]},
+    "literacy_subject_id": {"const": "hum.know.basic.reading-and-writing"},
+    "mathematics_subject_id": {"const": "hum.know.basic.basic-mathematics"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
