@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-ecology.ecology-profile",
+  "title": "GAIA Ecology Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "fourdee", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-ecology"},
+    "module_id": {"const": "hum.know.basic.basic-ecology.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "campaign_enabled": {"const": false},
+    "fourdee": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["concepts", "practices", "human_environment", "cross_cutting"],
+      "properties": {
+        "concepts": {"$ref": "#/$defs/score"},
+        "practices": {"$ref": "#/$defs/score"},
+        "human_environment": {"$ref": "#/$defs/score"},
+        "cross_cutting": {"$ref": "#/$defs/score"}
+      }
+    },
+    "environment_subject_id": {"const": "hum.know.basic.basic-environmental-awareness"},
+    "biology_subject_id": {"const": "hum.know.basic.basic-biology"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

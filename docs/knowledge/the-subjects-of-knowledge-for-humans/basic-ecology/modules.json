@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-ecology",
+  "title": "Basic Ecology",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "campaign_enabled": false,
+  "gaia_biosphere_claimed": false,
+  "fourdee": ["concepts", "practices", "human_environment", "cross_cutting"],
+  "linked_subjects": ["hum.know.basic.basic-biology", "hum.know.basic.basic-environmental-awareness", "hum.know.basic.basic-geography", "hum.know.basic.basic-science", "hum.know.basic.basic-chemistry", "hum.know.basic.basic-physics", "hum.know.basic.basic-economics", "hum.know.basic.basic-civics", "hum.know.basic.basic-ethics-and-morality"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-ecology.m01", "name": "Ecology Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["ecology-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-ecology.m02", "name": "Foundations of Ecology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-ecology.m03", "name": "Organism Ecology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-ecology.m04", "name": "Population Ecology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-ecology.m05", "name": "Community Ecology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-ecology.m06", "name": "Ecosystem Ecology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-ecology.m07", "name": "Landscape Ecology System", "priority": "high", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-ecology.m08", "name": "Biomes & Global Ecology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-ecology.m09", "name": "Biodiversity System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-ecology.m10", "name": "Human-Environment Interactions System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-ecology.m11", "name": "Ecology Practices System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-ecology.m12", "name": "Climate Change Ecology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-ecology.m13", "name": "Applied Ecology & Conservation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-ecology.m14", "name": "Ecological Literacy & Action System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-ecology.m15", "name": "Ecology Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
