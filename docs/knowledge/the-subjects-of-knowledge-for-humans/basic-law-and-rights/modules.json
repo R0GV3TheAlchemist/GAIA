@@ -1,0 +1,28 @@
+{
+  "subject_id": "hum.know.basic.basic-law-and-rights",
+  "title": "Basic Law & Rights",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "legal_advice_enabled": false,
+  "gaia_legal_personhood_claimed": false,
+  "linked_subjects": ["hum.know.basic.basic-civics", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-sociology", "hum.know.basic.basic-history", "hum.know.basic.basic-philosophy", "hum.know.basic.basic-economics", "hum.know.basic.basic-technology-literacy", "hum.know.basic.basic-environmental-awareness"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-law-and-rights.m01", "name": "Laws & Rights Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["law-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-law-and-rights.m02", "name": "Foundations of Law & Rights System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-law-and-rights.m03", "name": "Human Rights System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-law-and-rights.m04", "name": "Constitutional Law & Government System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-law-and-rights.m05", "name": "Criminal Law & Justice System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-law-and-rights.m06", "name": "Civil Law & Private Rights System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-law-and-rights.m07", "name": "Employment & Labor Rights System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-law-and-rights.m08", "name": "Privacy & Data Rights System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-law-and-rights.m09", "name": "Equality & Anti-Discrimination Law System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-law-and-rights.m10", "name": "Children's Rights System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-law-and-rights.m11", "name": "Environmental & Climate Rights System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-law-and-rights.m12", "name": "AI, Technology & Digital Rights System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-law-and-rights.m13", "name": "International Law & Global Justice System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-law-and-rights.m14", "name": "Legal Empowerment & Access to Justice System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-law-and-rights.m15", "name": "Laws & Rights Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
