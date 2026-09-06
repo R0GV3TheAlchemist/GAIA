@@ -1,0 +1,30 @@
+{
+  "subject_id": "hum.know.basic.basic-financial-literacy",
+  "title": "Basic Financial Literacy",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "delivers_financial_advice": false,
+  "product_rank_enabled": false,
+  "pisa_content": ["money_and_transactions", "planning_and_managing", "risk_and_reward", "financial_landscape"],
+  "linked_subjects": ["hum.know.basic.basic-economics", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-technology-literacy", "hum.know.basic.basic-psychology", "hum.know.basic.basic-civics", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-sociology", "hum.know.basic.basic-communication"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-financial-literacy.m01", "name": "Financial Literacy Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["financial-literacy-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-financial-literacy.m02", "name": "Money Foundations System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-financial-literacy.m03", "name": "Budgeting & Cash Flow System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-financial-literacy.m04", "name": "Emergency Fund & Savings System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-financial-literacy.m05", "name": "Debt Management System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-financial-literacy.m06", "name": "Credit & Credit Scores System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-financial-literacy.m07", "name": "Investing Fundamentals System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-financial-literacy.m08", "name": "Retirement Planning System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-financial-literacy.m09", "name": "Insurance & Risk Management System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-financial-literacy.m10", "name": "Taxes System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-financial-literacy.m11", "name": "Home Buying & Real Estate System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-financial-literacy.m12", "name": "Behavioral Finance & Money Psychology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-financial-literacy.m13", "name": "Digital Finance & Fintech System", "priority": "critical", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-financial-literacy.m14", "name": "Financial Equity & Inclusion System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-financial-literacy.m15", "name": "Financial Planning & Goal Setting System", "priority": "critical", "status": "specified"},
+    {"ordinal": 16, "id": "hum.know.basic.basic-financial-literacy.m16", "name": "Financial Literacy Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

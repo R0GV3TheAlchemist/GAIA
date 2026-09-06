@@ -30,14 +30,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Physical Education](the-subjects-of-knowledge-for-humans/basic-physical-education/README.md)
 - [Basic Environmental Awareness](the-subjects-of-knowledge-for-humans/basic-environmental-awareness/README.md)
 - [Basic Technology Literacy](the-subjects-of-knowledge-for-humans/basic-technology-literacy/README.md)
+- [Basic Financial Literacy](the-subjects-of-knowledge-for-humans/basic-financial-literacy/README.md)
 
-Technology Literacy is use, evaluate, and refuse. Offensive security is off. GAIA is not the curriculum proving a mind.
+Financial Literacy is household money under scarcity. Knowledge and behavior-intent stay apart. GAIA is not an advisor.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-one basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
