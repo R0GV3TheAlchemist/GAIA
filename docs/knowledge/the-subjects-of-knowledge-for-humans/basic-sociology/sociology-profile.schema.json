@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-sociology.sociology-profile",
+  "title": "GAIA Sociological Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "literacy", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-sociology"},
+    "module_id": {"const": "hum.know.basic.basic-sociology.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "literacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["foundations", "methods", "stratification", "institutions", "culture", "change", "digital", "imagination"],
+      "properties": {
+        "foundations": {"$ref": "#/$defs/score"},
+        "methods": {"$ref": "#/$defs/score"},
+        "stratification": {"$ref": "#/$defs/score"},
+        "institutions": {"$ref": "#/$defs/score"},
+        "culture": {"$ref": "#/$defs/score"},
+        "change": {"$ref": "#/$defs/score"},
+        "digital": {"$ref": "#/$defs/score"},
+        "imagination": {"$ref": "#/$defs/score"}
+      }
+    },
+    "perspective_balance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "functionalism": {"$ref": "#/$defs/score"},
+        "conflict": {"$ref": "#/$defs/score"},
+        "interactionism": {"$ref": "#/$defs/score"}
+      }
+    },
+    "civics_subject_id": {"const": "hum.know.basic.basic-civics"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

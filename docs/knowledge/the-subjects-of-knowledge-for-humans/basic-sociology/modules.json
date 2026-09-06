@@ -1,0 +1,30 @@
+{
+  "subject_id": "hum.know.basic.basic-sociology",
+  "title": "Basic Sociology",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "nonpartisan": true,
+  "linked_subjects": ["hum.know.basic.basic-psychology", "hum.know.basic.basic-history", "hum.know.basic.basic-civics", "hum.know.basic.basic-economics", "hum.know.basic.basic-geography", "hum.know.basic.basic-health-and-hygiene", "hum.know.basic.reading-and-writing", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-ethics-and-morality"],
+  "perspectives": ["functionalism", "conflict", "symbolic-interactionism"],
+  "additional_lenses": ["feminist", "critical-race", "queer", "postcolonial", "network", "rational-choice"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-sociology.m01", "name": "Sociology Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["sociology-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-sociology.m02", "name": "Foundations of Sociology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-sociology.m03", "name": "Sociological Research Methods System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-sociology.m04", "name": "Social Stratification & Inequality System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-sociology.m05", "name": "Social Institutions System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-sociology.m06", "name": "Socialization System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-sociology.m07", "name": "Culture & Society System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-sociology.m08", "name": "Social Interaction & Everyday Life System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-sociology.m09", "name": "Deviance, Crime & Social Control System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-sociology.m10", "name": "Population, Urbanization & Environment System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-sociology.m11", "name": "Social Change & Social Movements System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-sociology.m12", "name": "Global Sociology System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-sociology.m13", "name": "Digital Sociology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-sociology.m14", "name": "Applied Sociology System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-sociology.m15", "name": "Sociological Imagination & Critical Thinking System", "priority": "critical", "status": "specified"},
+    {"ordinal": 16, "id": "hum.know.basic.basic-sociology.m16", "name": "Sociology Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
