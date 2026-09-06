@@ -1,0 +1,27 @@
+{
+  "subject_id": "hum.know.basic.basic-economics",
+  "title": "Basic Economics",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "linked_subjects": ["hum.know.basic.reading-and-writing", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-history", "hum.know.basic.basic-geography", "hum.know.basic.basic-civics", "hum.know.basic.basic-financial-literacy", "hum.know.basic.basic-ethics-and-morality"],
+  "domains": ["foundations", "micro", "macro", "behavioral", "personal-finance", "international", "inequality", "digital"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-economics.m01", "name": "Economics Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["economics-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-economics.m02", "name": "Foundations of Economic Thinking System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-economics.m03", "name": "Microeconomics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-economics.m04", "name": "Macroeconomics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-economics.m05", "name": "Behavioral Economics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-economics.m06", "name": "Financial Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-economics.m07", "name": "International Economics System", "priority": "high", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-economics.m08", "name": "Economic Inequality System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-economics.m09", "name": "Digital & Platform Economics System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-economics.m10", "name": "Economic History System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-economics.m11", "name": "Economic Policy Debates System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-economics.m12", "name": "Economic Simulation & Game System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-economics.m13", "name": "Economic Equity & Justice System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-economics.m14", "name": "Economic Reasoning & Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-economics.m15", "name": "Economics Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

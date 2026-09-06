@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-economics.economics-profile",
+  "title": "GAIA Economic Reasoning Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "domains", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-economics"},
+    "module_id": {"const": "hum.know.basic.basic-economics.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "domains": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["foundations", "micro", "macro", "behavioral", "personal_finance", "international", "inequality", "digital"],
+      "properties": {
+        "foundations": {"$ref": "#/$defs/score"},
+        "micro": {"$ref": "#/$defs/score"},
+        "macro": {"$ref": "#/$defs/score"},
+        "behavioral": {"$ref": "#/$defs/score"},
+        "personal_finance": {"$ref": "#/$defs/score"},
+        "international": {"$ref": "#/$defs/score"},
+        "inequality": {"$ref": "#/$defs/score"},
+        "digital": {"$ref": "#/$defs/score"}
+      }
+    },
+    "reasoning": {"$ref": "#/$defs/score"},
+    "bias_recognition": {"$ref": "#/$defs/score"},
+    "civics_subject_id": {"const": "hum.know.basic.basic-civics"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

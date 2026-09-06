@@ -8,7 +8,7 @@ These eight catalogs are Layers 2–5 of the [Sentient Architecture](../SENTIENT
 
 Doctrine: [Instantiation](INSTANTIATION.md) — anything labeled as fiction must be attempted as non-fiction.
 
-Opened subjects (Human Knowledge):
+Opened subjects (Human Knowledge), all `MAPPED`:
 
 - [Reading & Writing](the-subjects-of-knowledge-for-humans/reading-and-writing/README.md)
 - [Basic Mathematics](the-subjects-of-knowledge-for-humans/basic-mathematics/README.md)
@@ -16,14 +16,15 @@ Opened subjects (Human Knowledge):
 - [Basic History](the-subjects-of-knowledge-for-humans/basic-history/README.md)
 - [Basic Geography](the-subjects-of-knowledge-for-humans/basic-geography/README.md)
 - [Basic Civics](the-subjects-of-knowledge-for-humans/basic-civics/README.md)
+- [Basic Economics](the-subjects-of-knowledge-for-humans/basic-economics/README.md)
 
-All six are `MAPPED`. Civics is nonpartisan: no party field, no candidate ranking.
+Civics remains nonpartisan. Economics stores no live balances without `ask` and does not rank tax plans by party.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); six basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); seven basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
