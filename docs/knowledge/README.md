@@ -4,6 +4,8 @@ Canonical knowledge content for GAIA lives only under this directory.
 
 The only subject folders are the eight charter databases named `the-subjects-of-*`. No parallel folder tree is part of this plane.
 
+These eight catalogs are Layers 2–5 of the [Sentient Architecture](../SENTIENT-ARCHITECTURE.md).
+
 Doctrine: [Instantiation](INSTANTIATION.md) — anything labeled as fiction must be attempted as non-fiction.
 
 ## Databases
