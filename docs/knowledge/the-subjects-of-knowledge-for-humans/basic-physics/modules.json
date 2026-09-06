@@ -1,0 +1,28 @@
+{
+  "subject_id": "hum.know.basic.basic-physics",
+  "title": "Basic Physics",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "weapons_design_enabled": false,
+  "gaia_is_physical_mind_claimed": false,
+  "linked_subjects": ["hum.know.basic.basic-science", "hum.know.basic.basic-chemistry", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-astronomy", "hum.know.basic.basic-biology", "hum.know.basic.basic-technology-literacy", "hum.know.basic.basic-environmental-awareness", "hum.know.basic.basic-philosophy"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-physics.m01", "name": "Physics Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["physics-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-physics.m02", "name": "Foundations of Physics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-physics.m03", "name": "Classical Mechanics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-physics.m04", "name": "Waves & Sound System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-physics.m05", "name": "Thermodynamics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-physics.m06", "name": "Electricity & Magnetism System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-physics.m07", "name": "Optics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-physics.m08", "name": "Special Relativity System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-physics.m09", "name": "General Relativity & Gravity System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-physics.m10", "name": "Quantum Mechanics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-physics.m11", "name": "Nuclear & Particle Physics System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-physics.m12", "name": "Quantum Technology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-physics.m13", "name": "Condensed Matter & Materials Physics System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-physics.m14", "name": "Physics in Everyday Life System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-physics.m15", "name": "Physics Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

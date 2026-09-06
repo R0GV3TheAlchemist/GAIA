@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-physics.physics-profile",
+  "title": "GAIA Physics Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "literacy", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-physics"},
+    "module_id": {"const": "hum.know.basic.basic-physics.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "weapons_design_enabled": {"const": false},
+    "literacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["concept", "math", "model"],
+      "properties": {
+        "concept": {"$ref": "#/$defs/score"},
+        "math": {"$ref": "#/$defs/score"},
+        "model": {"$ref": "#/$defs/score"}
+      }
+    },
+    "quantum_literacy": {"$ref": "#/$defs/score"},
+    "science_subject_id": {"const": "hum.know.basic.basic-science"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
