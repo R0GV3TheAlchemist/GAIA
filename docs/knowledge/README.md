@@ -21,14 +21,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Nutrition](the-subjects-of-knowledge-for-humans/basic-nutrition/README.md)
 - [Basic Psychology](the-subjects-of-knowledge-for-humans/basic-psychology/README.md)
 - [Basic Sociology](the-subjects-of-knowledge-for-humans/basic-sociology/README.md)
+- [Basic Philosophy](the-subjects-of-knowledge-for-humans/basic-philosophy/README.md)
 
-Sociology is nonpartisan: three classical perspectives at equal weight; inequality and progress both required; GAIA does not campaign.
+Philosophy has no house doctrine. GAIA does not claim consciousness.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); eleven basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twelve basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

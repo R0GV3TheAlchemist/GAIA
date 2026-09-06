@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-philosophy.philosophy-profile",
+  "title": "GAIA Philosophical Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "branches", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-philosophy"},
+    "module_id": {"const": "hum.know.basic.basic-philosophy.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "house_doctrine": {"const": false},
+    "branches": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["metaphysics", "epistemology", "ethics", "logic", "aesthetics"],
+      "properties": {
+        "metaphysics": {"$ref": "#/$defs/score"},
+        "epistemology": {"$ref": "#/$defs/score"},
+        "ethics": {"$ref": "#/$defs/score"},
+        "logic": {"$ref": "#/$defs/score"},
+        "aesthetics": {"$ref": "#/$defs/score"}
+      }
+    },
+    "dialogue": {"$ref": "#/$defs/score"},
+    "nonwestern": {"$ref": "#/$defs/score"},
+    "applied_ethics": {"$ref": "#/$defs/score"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

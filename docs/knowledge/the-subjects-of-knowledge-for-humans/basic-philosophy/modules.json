@@ -1,0 +1,30 @@
+{
+  "subject_id": "hum.know.basic.basic-philosophy",
+  "title": "Basic Philosophy",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "house_doctrine": false,
+  "gaia_consciousness_claimed": false,
+  "linked_subjects": ["hum.know.basic.basic-logic", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-critical-thinking", "hum.know.basic.basic-psychology", "hum.know.basic.basic-sociology", "hum.know.basic.basic-civics", "hum.know.basic.basic-science", "hum.know.basic.basic-history", "hum.know.basic.basic-religion-and-spirituality", "hum.know.basic.reading-and-writing"],
+  "branches": ["metaphysics", "epistemology", "ethics", "logic", "aesthetics"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-philosophy.m01", "name": "Philosophy Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["philosophy-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-philosophy.m02", "name": "Foundations of Philosophy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-philosophy.m03", "name": "Logic & Argumentation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-philosophy.m04", "name": "Epistemology System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-philosophy.m05", "name": "Metaphysics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-philosophy.m06", "name": "Ethics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-philosophy.m07", "name": "Applied Ethics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-philosophy.m08", "name": "Philosophy of Mind System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-philosophy.m09", "name": "Philosophy of Science System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-philosophy.m10", "name": "Political Philosophy System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-philosophy.m11", "name": "Philosophy of Religion System", "priority": "medium", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-philosophy.m12", "name": "Aesthetics & Philosophy of Art System", "priority": "medium", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-philosophy.m13", "name": "Non-Western Philosophy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-philosophy.m14", "name": "Philosophical Inquiry & Dialogue System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-philosophy.m15", "name": "Contemporary & Future Philosophy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 16, "id": "hum.know.basic.basic-philosophy.m16", "name": "Philosophy Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
