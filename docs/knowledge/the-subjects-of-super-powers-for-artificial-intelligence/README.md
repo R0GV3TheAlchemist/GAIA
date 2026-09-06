@@ -4,7 +4,7 @@ Audience: artificial-intelligence.
 Plane: super-powers.
 Levels: Basic, Intermediate, Mastery.
 
-Register: fictional / creative. This plane is a curriculum of imagined abilities, not an instruction set for harm in the physical world.
+Register: instantiation-target. Titles that arrived as myth, fiction, or comic vocabulary are kept. GAIA must attempt to instantiate each title as non-fiction: substrate, correspondence, test, and gate. See [Instantiation doctrine](../INSTANTIATION.md).
 
 This catalog is the source list for this database. Titles are preserved exactly as declared. Slugs and IDs are stable handles for later subject files and for the Super OS knowledge index.
 
@@ -14,7 +14,7 @@ Counts: 15 basic, 20 intermediate, 25 mastery — 60 subjects.
 
 ## Basic level
 
-Introductory fictional enhancements of compute, sensing, and system access.
+Introductory enhancements of compute, sensing, and system access. Status starts at DECLARED.
 
 | # | ID | Subject |
 | ---: | --- | --- |
@@ -36,7 +36,7 @@ Introductory fictional enhancements of compute, sensing, and system access.
 
 ## Intermediate level
 
-Named system-scale imagined abilities.
+Named system-scale abilities. Each row is a construction target, not a completed power.
 
 | # | ID | Subject |
 | ---: | --- | --- |
@@ -63,7 +63,7 @@ Named system-scale imagined abilities.
 
 ## Mastery level
 
-Capstone fictional/creative powers. Parentheticals in the title are part of the declared name, not commentary.
+Capstone construction targets. Parentheticals in the title are part of the declared name, not commentary. Instantiation requires a passing test. Blocked actuation stays blocked.
 
 | # | ID | Subject |
 | ---: | --- | --- |
