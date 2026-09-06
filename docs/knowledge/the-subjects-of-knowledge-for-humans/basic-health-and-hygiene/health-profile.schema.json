@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-health-and-hygiene.health-profile",
+  "title": "GAIA Health Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "pillars", "literacy", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-health-and-hygiene"},
+    "module_id": {"const": "hum.know.basic.basic-health-and-hygiene.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "clinical_diagnosis": {"const": false},
+    "pillars": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["activity", "nutrition", "sleep", "stress", "toxic_reduction", "connectedness", "hygiene"],
+      "properties": {
+        "activity": {"$ref": "#/$defs/score"},
+        "nutrition": {"$ref": "#/$defs/score"},
+        "sleep": {"$ref": "#/$defs/score"},
+        "stress": {"$ref": "#/$defs/score"},
+        "toxic_reduction": {"$ref": "#/$defs/score"},
+        "connectedness": {"$ref": "#/$defs/score"},
+        "hygiene": {"$ref": "#/$defs/score"}
+      }
+    },
+    "literacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["personal", "interpersonal", "organizational", "navigational", "functional", "numeracy", "digital"],
+      "properties": {
+        "personal": {"$ref": "#/$defs/score"},
+        "interpersonal": {"$ref": "#/$defs/score"},
+        "organizational": {"$ref": "#/$defs/score"},
+        "navigational": {"$ref": "#/$defs/score"},
+        "functional": {"$ref": "#/$defs/score"},
+        "numeracy": {"$ref": "#/$defs/score"},
+        "digital": {"$ref": "#/$defs/score"}
+      }
+    },
+    "microbiome_literacy": {"$ref": "#/$defs/score"},
+    "prevention_knowledge": {"$ref": "#/$defs/score"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

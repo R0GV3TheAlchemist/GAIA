@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-health-and-hygiene",
+  "title": "Basic Health & Hygiene",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "clinical_diagnosis": false,
+  "linked_subjects": ["hum.know.basic.reading-and-writing", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-biology", "hum.know.basic.basic-civics", "hum.know.basic.basic-economics", "hum.know.basic.basic-geography", "hum.know.basic.basic-nutrition", "hum.know.basic.basic-psychology", "hum.know.basic.basic-safety-and-first-aid"],
+  "pillars": ["activity", "nutrition", "sleep", "stress", "toxic-reduction", "connectedness", "hygiene"],
+  "literacy_dimensions": ["personal", "interpersonal", "organizational", "navigational", "functional", "numeracy", "digital"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-health-and-hygiene.m01", "name": "Health & Hygiene Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["health-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-health-and-hygiene.m02", "name": "Personal Hygiene System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-health-and-hygiene.m03", "name": "The Human Body System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-health-and-hygiene.m04", "name": "Nutrition & Diet System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-health-and-hygiene.m05", "name": "Physical Activity & Exercise System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-health-and-hygiene.m06", "name": "Sleep Science System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-health-and-hygiene.m07", "name": "Disease Prevention & Infection Control System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-health-and-hygiene.m08", "name": "Mental Health & Well-Being System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-health-and-hygiene.m09", "name": "Chronic Disease Prevention System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-health-and-hygiene.m10", "name": "Environmental Health & WASH System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-health-and-hygiene.m11", "name": "Reproductive & Sexual Health System", "priority": "high", "status": "specified", "age_gate": true},
+    {"ordinal": 12, "id": "hum.know.basic.basic-health-and-hygiene.m12", "name": "Substance Use & Toxic Exposure System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-health-and-hygiene.m13", "name": "Health Literacy & Navigation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-health-and-hygiene.m14", "name": "Global Health & Health Equity System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-health-and-hygiene.m15", "name": "Health Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
