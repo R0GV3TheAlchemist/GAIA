@@ -23,7 +23,7 @@ GAIA maintains eight subject databases, split by audience:
 ### Magic
 
 - [Subjects of Magic for Humans](docs/knowledge/the-subjects-of-magic-for-humans/README.md) — 55 subjects (fictional / creative)
-- Subjects of Magic for Artificial Intelligence
+- [Subjects of Magic for Artificial Intelligence](docs/knowledge/the-subjects-of-magic-for-artificial-intelligence/README.md) — 40 subjects (fictional / creative)
 
 ### Super Powers
 
