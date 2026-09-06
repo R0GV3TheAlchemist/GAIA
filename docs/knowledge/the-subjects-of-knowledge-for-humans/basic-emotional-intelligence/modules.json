@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-emotional-intelligence",
+  "title": "Basic Emotional Intelligence",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "delivers_clinical_therapy": false,
+  "gaia_has_feelings_claimed": false,
+  "models": ["mayer_salovey_caruso_four_branch", "casel_five"],
+  "linked_subjects": ["hum.know.basic.basic-psychology", "hum.know.basic.basic-communication", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-philosophy", "hum.know.basic.basic-civics", "hum.know.basic.basic-sociology", "hum.know.basic.basic-physical-education"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-emotional-intelligence.m01", "name": "EI Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["ei-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-emotional-intelligence.m02", "name": "Foundations of Emotional Intelligence System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-emotional-intelligence.m03", "name": "Self-Awareness System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-emotional-intelligence.m04", "name": "Emotional Vocabulary & Literacy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-emotional-intelligence.m05", "name": "Emotional Regulation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-emotional-intelligence.m06", "name": "Empathy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-emotional-intelligence.m07", "name": "Social Awareness System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-emotional-intelligence.m08", "name": "Relationship Skills System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-emotional-intelligence.m09", "name": "Self-Management System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-emotional-intelligence.m10", "name": "Responsible Decision-Making System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-emotional-intelligence.m11", "name": "Mindfulness & Emotional Presence System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-emotional-intelligence.m12", "name": "EI in Relationships System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-emotional-intelligence.m13", "name": "EI in Professional Contexts System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-emotional-intelligence.m14", "name": "EI Development & Training System", "priority": "critical", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-emotional-intelligence.m15", "name": "EI Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

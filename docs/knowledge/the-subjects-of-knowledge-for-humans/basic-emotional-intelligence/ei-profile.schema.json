@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-emotional-intelligence.ei-profile",
+  "title": "GAIA Emotional Intelligence Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "ability", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-emotional-intelligence"},
+    "module_id": {"const": "hum.know.basic.basic-emotional-intelligence.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "delivers_clinical_therapy": {"const": false},
+    "gaia_has_feelings_claimed": {"const": false},
+    "ability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["perceive", "use", "understand", "manage"],
+      "properties": {
+        "perceive": {"$ref": "#/$defs/score"},
+        "use": {"$ref": "#/$defs/score"},
+        "understand": {"$ref": "#/$defs/score"},
+        "manage": {"$ref": "#/$defs/score"}
+      }
+    },
+    "casel": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "self_awareness": {"$ref": "#/$defs/score"},
+        "self_management": {"$ref": "#/$defs/score"},
+        "social_awareness": {"$ref": "#/$defs/score"},
+        "relationship_skills": {"$ref": "#/$defs/score"},
+        "responsible_decision_making": {"$ref": "#/$defs/score"}
+      }
+    },
+    "granularity": {"$ref": "#/$defs/score"},
+    "psychology_subject_id": {"const": "hum.know.basic.basic-psychology"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
