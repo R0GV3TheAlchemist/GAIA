@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-environmental-awareness.environmental-profile",
+  "title": "GAIA Environmental Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "literacy", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-environmental-awareness"},
+    "module_id": {"const": "hum.know.basic.basic-environmental-awareness.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "delivers_clinical_eco_therapy": {"const": false},
+    "literacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["knowledge", "systems", "agency"],
+      "properties": {
+        "knowledge": {"$ref": "#/$defs/score"},
+        "systems": {"$ref": "#/$defs/score"},
+        "agency": {"$ref": "#/$defs/score"}
+      }
+    },
+    "climate": {"$ref": "#/$defs/score"},
+    "biodiversity": {"$ref": "#/$defs/score"},
+    "boundaries": {"$ref": "#/$defs/score"},
+    "science_subject_id": {"const": "hum.know.basic.basic-science"},
+    "geography_subject_id": {"const": "hum.know.basic.basic-geography"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

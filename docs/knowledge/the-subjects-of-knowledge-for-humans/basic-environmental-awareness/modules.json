@@ -1,0 +1,28 @@
+{
+  "subject_id": "hum.know.basic.basic-environmental-awareness",
+  "title": "Basic Environmental Awareness",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "gaia_planetary_claimed": false,
+  "delivers_clinical_eco_therapy": false,
+  "linked_subjects": ["hum.know.basic.basic-science", "hum.know.basic.basic-geography", "hum.know.basic.basic-civics", "hum.know.basic.basic-economics", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-psychology", "hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-nutrition", "hum.know.basic.basic-history"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-environmental-awareness.m01", "name": "Environmental Awareness Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["environmental-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-environmental-awareness.m02", "name": "Earth Systems Science Foundation", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-environmental-awareness.m03", "name": "Climate Change System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-environmental-awareness.m04", "name": "Biodiversity & Ecosystems System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-environmental-awareness.m05", "name": "Planetary Boundaries System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-environmental-awareness.m06", "name": "Pollution & Environmental Health System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-environmental-awareness.m07", "name": "Sustainability & Circular Economy System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-environmental-awareness.m08", "name": "Nature Connection & Biophilia System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-environmental-awareness.m09", "name": "Environmental Systems Thinking System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-environmental-awareness.m10", "name": "Environmental Justice System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-environmental-awareness.m11", "name": "Environmental Action & Agency System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-environmental-awareness.m12", "name": "Local & Global Environmental Issues System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-environmental-awareness.m13", "name": "Environmental Policy & Governance System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-environmental-awareness.m14", "name": "Environmental Education Pedagogy System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-environmental-awareness.m15", "name": "Environmental Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

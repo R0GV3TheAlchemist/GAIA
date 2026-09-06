@@ -28,14 +28,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Art & Creativity](the-subjects-of-knowledge-for-humans/basic-art-and-creativity/README.md)
 - [Basic Music Theory](the-subjects-of-knowledge-for-humans/basic-music-theory/README.md)
 - [Basic Physical Education](the-subjects-of-knowledge-for-humans/basic-physical-education/README.md)
+- [Basic Environmental Awareness](the-subjects-of-knowledge-for-humans/basic-environmental-awareness/README.md)
 
-Physical Education is a sibling of Health and Nutrition. GAIA has no body and does not prescribe clinical exercise.
+Environmental Awareness is a sibling of Science and Geography. Knowledge, systems thinking, and agency are scored apart. GAIA is not the planet.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); eighteen basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); nineteen basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
