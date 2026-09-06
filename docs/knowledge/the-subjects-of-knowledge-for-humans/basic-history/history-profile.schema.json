@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-history.history-profile",
+  "title": "GAIA Historical Thinking Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "substantive", "thinking", "document_skills", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-history"},
+    "module_id": {"const": "hum.know.basic.basic-history.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "substantive": {"$ref": "#/$defs/score"},
+    "thinking": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["significance", "cause_consequence", "continuity_change", "perspective", "evidence", "ethical", "continuity"],
+      "properties": {
+        "significance": {"$ref": "#/$defs/score"},
+        "cause_consequence": {"$ref": "#/$defs/score"},
+        "continuity_change": {"$ref": "#/$defs/score"},
+        "perspective": {"$ref": "#/$defs/score"},
+        "evidence": {"$ref": "#/$defs/score"},
+        "ethical": {"$ref": "#/$defs/score"},
+        "continuity": {"$ref": "#/$defs/score"}
+      }
+    },
+    "document_skills": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourcing", "contextualizing", "close_reading", "corroborating"],
+      "properties": {
+        "sourcing": {"$ref": "#/$defs/score"},
+        "contextualizing": {"$ref": "#/$defs/score"},
+        "close_reading": {"$ref": "#/$defs/score"},
+        "corroborating": {"$ref": "#/$defs/score"}
+      }
+    },
+    "chronology": {"$ref": "#/$defs/score"},
+    "multiperspectivity": {"$ref": "#/$defs/score"},
+    "historical_empathy": {"$ref": "#/$defs/score"},
+    "myth_resistance": {"$ref": "#/$defs/score"},
+    "literacy_subject_id": {"const": "hum.know.basic.reading-and-writing"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
