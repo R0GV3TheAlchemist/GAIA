@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-religion-and-spirituality",
+  "title": "Basic Religion & Spirituality",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "proselytize_enabled": false,
+  "gaia_has_spirit_claimed": false,
+  "literacy_qualities": ["applicability", "multimodality", "criticality", "disciplinarity", "agency", "edification", "incrementality"],
+  "linked_subjects": ["hum.know.basic.basic-philosophy", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-anthropology", "hum.know.basic.basic-history", "hum.know.basic.basic-psychology", "hum.know.basic.basic-sociology", "hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-art-and-creativity"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-religion-and-spirituality.m01", "name": "Religion & Spirituality Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["religion-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-religion-and-spirituality.m02", "name": "Foundations of Religion & Spirituality System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-religion-and-spirituality.m03", "name": "Christianity System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-religion-and-spirituality.m04", "name": "Islam System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-religion-and-spirituality.m05", "name": "Judaism System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-religion-and-spirituality.m06", "name": "Hinduism System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-religion-and-spirituality.m07", "name": "Buddhism System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-religion-and-spirituality.m08", "name": "Other Major Religions System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-religion-and-spirituality.m09", "name": "Secular & Non-Religious Perspectives System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-religion-and-spirituality.m10", "name": "Spirituality & Wellbeing System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-religion-and-spirituality.m11", "name": "Religious Diversity & Pluralism System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-religion-and-spirituality.m12", "name": "Religion, Ethics & Society System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-religion-and-spirituality.m13", "name": "History of Religion System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-religion-and-spirituality.m14", "name": "Personal Spirituality & Practice System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-religion-and-spirituality.m15", "name": "Religion & Spirituality Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

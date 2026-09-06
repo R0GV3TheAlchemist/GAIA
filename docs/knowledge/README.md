@@ -40,14 +40,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Anthropology](the-subjects-of-knowledge-for-humans/basic-anthropology/README.md)
 - [Basic Linguistics](the-subjects-of-knowledge-for-humans/basic-linguistics/README.md)
 - [Basic Law & Rights](the-subjects-of-knowledge-for-humans/basic-law-and-rights/README.md)
+- [Basic Religion & Spirituality](the-subjects-of-knowledge-for-humans/basic-religion-and-spirituality/README.md)
 
-Law is information and paths, not advice. GAIA is not a legal person.
+Religion is descriptive. Secular frames sit in the same catalog. GAIA does not have a soul.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); thirty basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); thirty-one basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

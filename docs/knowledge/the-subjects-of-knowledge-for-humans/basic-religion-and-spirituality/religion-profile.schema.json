@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-religion-and-spirituality.religion-profile",
+  "title": "GAIA Religion & Spirituality Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "literacy", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-religion-and-spirituality"},
+    "module_id": {"const": "hum.know.basic.basic-religion-and-spirituality.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "proselytize_enabled": {"const": false},
+    "literacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["describe", "compare", "secular"],
+      "properties": {
+        "describe": {"$ref": "#/$defs/score"},
+        "compare": {"$ref": "#/$defs/score"},
+        "secular": {"$ref": "#/$defs/score"}
+      }
+    },
+    "philosophy_subject_id": {"const": "hum.know.basic.basic-philosophy"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}
