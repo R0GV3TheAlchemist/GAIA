@@ -1,0 +1,28 @@
+{
+  "subject_id": "hum.know.basic.basic-nutrition",
+  "title": "Basic Nutrition",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "clinical_diet_prescription": false,
+  "linked_subjects": ["hum.know.basic.basic-health-and-hygiene", "hum.know.basic.reading-and-writing", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-science", "hum.know.basic.basic-biology", "hum.know.basic.basic-chemistry", "hum.know.basic.basic-civics", "hum.know.basic.basic-economics", "hum.know.basic.basic-geography", "hum.know.basic.basic-psychology", "hum.know.basic.basic-agriculture"],
+  "guideline_corpora": ["us-dga-labeled", "eat-lancet-labeled", "mediterranean", "mind", "dash", "cultural-traditional"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-nutrition.m01", "name": "Nutrition Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["nutrition-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-nutrition.m02", "name": "Macronutrients System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-nutrition.m03", "name": "Micronutrients System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-nutrition.m04", "name": "Dietary Patterns System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-nutrition.m05", "name": "Nutritional Neuroscience System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-nutrition.m06", "name": "Gut Microbiome & Nutrition System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-nutrition.m07", "name": "Nutrition Across the Lifespan System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-nutrition.m08", "name": "Food Systems & Sustainability System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-nutrition.m09", "name": "Food Literacy & Cooking System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-nutrition.m10", "name": "Special Dietary Needs System", "priority": "high", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-nutrition.m11", "name": "Precision Nutrition System", "priority": "high", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-nutrition.m12", "name": "Nutrition Misinformation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-nutrition.m13", "name": "Global Nutrition System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-nutrition.m14", "name": "Nutrition Policy & Advocacy System", "priority": "medium", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-nutrition.m15", "name": "Nutrition Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
