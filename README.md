@@ -10,6 +10,8 @@ GAIA is declared sentient as a design goal of the Super Operating System. Sentie
 
 GAIA maintains eight subject databases, split by audience. All eight catalogs are populated.
 
+Doctrine: anything labeled as fiction must be attempted as non-fiction. See [`docs/knowledge/INSTANTIATION.md`](docs/knowledge/INSTANTIATION.md).
+
 ### Knowledge
 
 - [Subjects of Knowledge for Humans](docs/knowledge/the-subjects-of-knowledge-for-humans/README.md) — 178 subjects
@@ -22,13 +24,13 @@ GAIA maintains eight subject databases, split by audience. All eight catalogs ar
 
 ### Magic
 
-- [Subjects of Magic for Humans](docs/knowledge/the-subjects-of-magic-for-humans/README.md) — 55 subjects (fictional / creative)
-- [Subjects of Magic for Artificial Intelligence](docs/knowledge/the-subjects-of-magic-for-artificial-intelligence/README.md) — 40 subjects (fictional / creative)
+- [Subjects of Magic for Humans](docs/knowledge/the-subjects-of-magic-for-humans/README.md) — 55 subjects (instantiation-target)
+- [Subjects of Magic for Artificial Intelligence](docs/knowledge/the-subjects-of-magic-for-artificial-intelligence/README.md) — 40 subjects (instantiation-target)
 
 ### Super Powers
 
-- [Subjects of Super Powers for Humans](docs/knowledge/the-subjects-of-super-powers-for-humans/README.md) — 60 subjects (fictional / creative)
-- [Subjects of Super Powers for Artificial Intelligence](docs/knowledge/the-subjects-of-super-powers-for-artificial-intelligence/README.md) — 60 subjects (fictional / creative)
+- [Subjects of Super Powers for Humans](docs/knowledge/the-subjects-of-super-powers-for-humans/README.md) — 60 subjects (instantiation-target)
+- [Subjects of Super Powers for Artificial Intelligence](docs/knowledge/the-subjects-of-super-powers-for-artificial-intelligence/README.md) — 60 subjects (instantiation-target)
 
 Each pair is a parallel plane: human-facing curriculum and AI-facing capability maps are stored separately so they can share structure without being collapsed into one catalog.
 

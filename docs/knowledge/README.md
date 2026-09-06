@@ -7,6 +7,8 @@ Parallel structures:
 - `the-subjects-of-*` — subject catalogs (curriculum / capability maps)
 - `the-alchemy-of-the-subjects-of-*` — alchemy treatments of those subjects (not yet seeded in this tree)
 
+Doctrine: [Instantiation](INSTANTIATION.md) — anything labeled as fiction must be attempted as non-fiction.
+
 ## Databases
 
 | Plane | Audience | Status |
@@ -15,7 +17,7 @@ Parallel structures:
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
-| [the-subjects-of-magic-for-humans](the-subjects-of-magic-for-humans/README.md) | Humans | Catalog populated (55, fictional/creative) |
-| [the-subjects-of-magic-for-artificial-intelligence](the-subjects-of-magic-for-artificial-intelligence/README.md) | AI | Catalog populated (40, fictional/creative) |
-| [the-subjects-of-super-powers-for-humans](the-subjects-of-super-powers-for-humans/README.md) | Humans | Catalog populated (60, fictional/creative) |
-| [the-subjects-of-super-powers-for-artificial-intelligence](the-subjects-of-super-powers-for-artificial-intelligence/README.md) | AI | Catalog populated (60, fictional/creative) |
+| [the-subjects-of-magic-for-humans](the-subjects-of-magic-for-humans/README.md) | Humans | Catalog populated (55, instantiation-target) |
+| [the-subjects-of-magic-for-artificial-intelligence](the-subjects-of-magic-for-artificial-intelligence/README.md) | AI | Catalog populated (40, instantiation-target) |
+| [the-subjects-of-super-powers-for-humans](the-subjects-of-super-powers-for-humans/README.md) | Humans | Catalog populated (60, instantiation-target) |
+| [the-subjects-of-super-powers-for-artificial-intelligence](the-subjects-of-super-powers-for-artificial-intelligence/README.md) | AI | Catalog populated (60, instantiation-target) |
