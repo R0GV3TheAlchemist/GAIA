@@ -8,11 +8,13 @@ These eight catalogs are Layers 2–5 of the [Sentient Architecture](../SENTIENT
 
 Doctrine: [Instantiation](INSTANTIATION.md) — anything labeled as fiction must be attempted as non-fiction.
 
+First opened subject: [Reading & Writing](the-subjects-of-knowledge-for-humans/reading-and-writing/README.md) (`hum.know.basic.reading-and-writing`) — status `MAPPED`.
+
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178) |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); Reading & Writing opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

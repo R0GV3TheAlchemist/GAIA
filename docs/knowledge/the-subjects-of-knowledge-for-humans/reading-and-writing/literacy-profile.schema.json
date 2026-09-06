@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.reading-and-writing.literacy-profile",
+  "title": "GAIA Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "phase", "constructs", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.reading-and-writing"},
+    "module_id": {"const": "hum.know.basic.reading-and-writing.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "phase": {"type": "integer", "minimum": 1, "maximum": 5},
+    "constructs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["oral_language", "phonological_awareness", "phonics", "fluency", "vocabulary", "reading_comprehension"],
+      "properties": {
+        "oral_language": {"$ref": "#/$defs/score"},
+        "phonological_awareness": {"$ref": "#/$defs/score"},
+        "phonics": {"$ref": "#/$defs/score"},
+        "fluency": {"$ref": "#/$defs/score"},
+        "vocabulary": {"$ref": "#/$defs/score"},
+        "reading_comprehension": {"$ref": "#/$defs/score"}
+      }
+    },
+    "writing": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "transcription": {"$ref": "#/$defs/score"},
+        "composition": {"$ref": "#/$defs/score"},
+        "planning": {"$ref": "#/$defs/score"},
+        "translating": {"$ref": "#/$defs/score"},
+        "reviewing": {"$ref": "#/$defs/score"}
+      }
+    },
+    "fluency_wcpm": {"type": "number", "minimum": 0},
+    "fluency_accuracy": {"type": "number", "minimum": 0, "maximum": 1},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "subject_id": "hum.know.basic.reading-and-writing",
+  "title": "Reading & Writing",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "constructs": ["oral-language", "phonological-awareness", "phonics", "fluency", "vocabulary", "reading-comprehension"],
+  "phases": ["pre-alphabetic", "partial-alphabetic", "full-alphabetic", "consolidated-alphabetic", "automatic-orthographic"],
+  "writing_model": ["planning", "translating", "reviewing", "monitor", "long-term-memory"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.reading-and-writing.m01", "name": "Literacy Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["literacy-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.reading-and-writing.m02", "name": "Phonological Awareness Training", "priority": "critical", "status": "specified", "phases": [1, 2, 3]},
+    {"ordinal": 3, "id": "hum.know.basic.reading-and-writing.m03", "name": "Phonics & Decoding Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.reading-and-writing.m04", "name": "Reading Fluency System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.reading-and-writing.m05", "name": "Vocabulary Architecture", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.reading-and-writing.m06", "name": "Reading Comprehension Engine", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.reading-and-writing.m07", "name": "Writing Process Engine", "priority": "critical", "status": "specified", "model": "hayes-flower"},
+    {"ordinal": 8, "id": "hum.know.basic.reading-and-writing.m08", "name": "Transcription Skills System", "priority": "high", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.reading-and-writing.m09", "name": "Integrated Literacy System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.reading-and-writing.m10", "name": "Multilingual Literacy System", "priority": "high", "status": "specified", "languages": ["en", "es", "fr", "zh", "ar", "hi", "pt", "ru", "ja", "ko", "de", "it"]},
+    {"ordinal": 11, "id": "hum.know.basic.reading-and-writing.m11", "name": "Literacy Intervention System", "priority": "high", "status": "specified", "clinical_diagnosis": false},
+    {"ordinal": 12, "id": "hum.know.basic.reading-and-writing.m12", "name": "Advanced Literacy System", "priority": "medium", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.reading-and-writing.m13", "name": "Literacy Data & Analytics Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
