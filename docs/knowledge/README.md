@@ -36,14 +36,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Biology](the-subjects-of-knowledge-for-humans/basic-biology/README.md)
 - [Basic Chemistry](the-subjects-of-knowledge-for-humans/basic-chemistry/README.md)
 - [Basic Physics](the-subjects-of-knowledge-for-humans/basic-physics/README.md)
+- [Basic Ecology](the-subjects-of-knowledge-for-humans/basic-ecology/README.md)
 
-Physics is concept, math, and model scored apart. Weapons design off. Open questions stay open.
+Ecology is 4DEE science. Environment stays the awareness/action sibling. GAIA is not the biosphere.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-six basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-seven basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
