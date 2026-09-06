@@ -34,14 +34,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Emotional Intelligence](the-subjects-of-knowledge-for-humans/basic-emotional-intelligence/README.md)
 - [Basic Astronomy](the-subjects-of-knowledge-for-humans/basic-astronomy/README.md)
 - [Basic Biology](the-subjects-of-knowledge-for-humans/basic-biology/README.md)
+- [Basic Chemistry](the-subjects-of-knowledge-for-humans/basic-chemistry/README.md)
 
-Biology is Vision and Change: five concepts plus process. GAIA is not an organism. The wet lab is off.
+Chemistry is particulate thinking plus green principle. Wet lab off. Synthesis kits off.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-four basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); twenty-five basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |

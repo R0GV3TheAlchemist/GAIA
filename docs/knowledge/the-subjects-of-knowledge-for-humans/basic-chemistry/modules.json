@@ -1,0 +1,29 @@
+{
+  "subject_id": "hum.know.basic.basic-chemistry",
+  "title": "Basic Chemistry",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "wet_lab_enabled": false,
+  "synthesis_kit_enabled": false,
+  "chemical_thinking": ["particulate_nature", "structure_property", "energy_and_change", "periodicity", "equilibrium_and_dynamics", "transformation_conserved"],
+  "linked_subjects": ["hum.know.basic.basic-science", "hum.know.basic.basic-biology", "hum.know.basic.basic-physics", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-environmental-awareness", "hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-nutrition", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-technology-literacy"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-chemistry.m01", "name": "Chemistry Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["chemistry-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-chemistry.m02", "name": "Foundations of Chemistry System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-chemistry.m03", "name": "Atomic Structure System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-chemistry.m04", "name": "The Periodic Table System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-chemistry.m05", "name": "Chemical Bonding System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-chemistry.m06", "name": "Chemical Reactions System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-chemistry.m07", "name": "States of Matter & Thermodynamics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-chemistry.m08", "name": "Acids, Bases & Electrochemistry System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-chemistry.m09", "name": "Organic Chemistry System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-chemistry.m10", "name": "Biochemistry System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-chemistry.m11", "name": "Green Chemistry & Sustainability System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-chemistry.m12", "name": "Nuclear Chemistry & Radiation System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-chemistry.m13", "name": "Analytical Chemistry System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-chemistry.m14", "name": "AI & Computational Chemistry System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-chemistry.m15", "name": "Chemistry Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
