@@ -1,0 +1,30 @@
+{
+  "subject_id": "hum.know.basic.basic-art-and-creativity",
+  "title": "Basic Art & Creativity",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "delivers_art_therapy": false,
+  "gaia_aesthetic_claimed": false,
+  "forms": ["visual", "music", "drama", "dance"],
+  "cla_capabilities": ["agency", "communication", "wellbeing", "collaboration", "empathy", "creativity", "interpretation"],
+  "linked_subjects": ["hum.know.basic.basic-communication", "hum.know.basic.reading-and-writing", "hum.know.basic.basic-philosophy", "hum.know.basic.basic-history", "hum.know.basic.basic-mathematics", "hum.know.basic.basic-psychology", "hum.know.basic.basic-health-and-hygiene", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-music-theory", "hum.know.basic.basic-physical-education"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-art-and-creativity.m01", "name": "Art & Creativity Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["creativity-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-art-and-creativity.m02", "name": "Foundations of Art & Creativity System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-art-and-creativity.m03", "name": "Visual Arts System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-art-and-creativity.m04", "name": "Music System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-art-and-creativity.m05", "name": "Drama & Theater System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-art-and-creativity.m06", "name": "Dance & Movement System", "priority": "high", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-art-and-creativity.m07", "name": "Creative Process System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-art-and-creativity.m08", "name": "Aesthetic Education System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-art-and-creativity.m09", "name": "World Art Traditions System", "priority": "critical", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-art-and-creativity.m10", "name": "Digital Art & AI Creativity System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-art-and-creativity.m11", "name": "Creative Thinking & Innovation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-art-and-creativity.m12", "name": "Art Therapy & Wellbeing System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-art-and-creativity.m13", "name": "Cultural Arts & Heritage System", "priority": "high", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-art-and-creativity.m14", "name": "Art Making & Studio Practice System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-art-and-creativity.m15", "name": "Art & Creativity Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}

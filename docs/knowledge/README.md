@@ -25,14 +25,15 @@ Opened subjects (Human Knowledge), all `MAPPED`:
 - [Basic Ethics & Morality](the-subjects-of-knowledge-for-humans/basic-ethics-and-morality/README.md)
 - [Basic Logic & Reasoning](the-subjects-of-knowledge-for-humans/basic-logic-and-reasoning/README.md)
 - [Basic Communication](the-subjects-of-knowledge-for-humans/basic-communication/README.md)
+- [Basic Art & Creativity](the-subjects-of-knowledge-for-humans/basic-art-and-creativity/README.md)
 
-Communication is a sibling of literacy and psychology. ACER three strands. Persuasion is ethical only. GAIA does not claim to understand.
+Art is four forms plus process. GAIA does not deliver art therapy and does not claim aesthetic experience.
 
 ## Databases
 
 | Plane | Audience | Status |
 | --- | --- | --- |
-| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); fifteen basic subjects opened |
+| [the-subjects-of-knowledge-for-humans](the-subjects-of-knowledge-for-humans/README.md) | Humans | Catalog populated (178); sixteen basic subjects opened |
 | [the-subjects-of-knowledge-for-artificial-intelligence](the-subjects-of-knowledge-for-artificial-intelligence/README.md) | AI | Catalog populated (114) |
 | [the-subjects-of-skills-for-humans](the-subjects-of-skills-for-humans/README.md) | Humans | Catalog populated (120) |
 | [the-subjects-of-skills-for-artificial-intelligence](the-subjects-of-skills-for-artificial-intelligence/README.md) | AI | Catalog populated (80) |
