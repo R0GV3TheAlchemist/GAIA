@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hum.know.basic.basic-communication.communication-profile",
+  "title": "GAIA Communication Literacy Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject_id", "module_id", "strands", "gate"],
+  "properties": {
+    "subject_id": {"const": "hum.know.basic.basic-communication"},
+    "module_id": {"const": "hum.know.basic.basic-communication.m01"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "strands": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strategising", "conveying", "receiving"],
+      "properties": {
+        "strategising": {"$ref": "#/$defs/score"},
+        "conveying": {"$ref": "#/$defs/score"},
+        "receiving": {"$ref": "#/$defs/score"}
+      }
+    },
+    "listening": {"$ref": "#/$defs/score"},
+    "writing": {"$ref": "#/$defs/score"},
+    "intercultural": {"$ref": "#/$defs/score"},
+    "digital": {"$ref": "#/$defs/score"},
+    "ethics": {"$ref": "#/$defs/score"},
+    "literacy_subject_id": {"const": "hum.know.basic.reading-and-writing"},
+    "notes": {"type": "string"},
+    "gate": {"type": "string", "enum": ["allow", "deny", "ask"]},
+    "stored_in_vault": {"type": "boolean"}
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value"],
+      "properties": {
+        "value": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "string", "enum": ["T0", "T1_PROVISIONAL", "T2", "T3"]}
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "subject_id": "hum.know.basic.basic-communication",
+  "title": "Basic Communication",
+  "plane": "knowledge",
+  "audience": "humans",
+  "level": "basic",
+  "status": "MAPPED",
+  "gaia_understands_claimed": false,
+  "acer_strands": ["strategising", "conveying", "receiving"],
+  "linked_subjects": ["hum.know.basic.reading-and-writing", "hum.know.basic.basic-psychology", "hum.know.basic.basic-sociology", "hum.know.basic.basic-civics", "hum.know.basic.basic-ethics-and-morality", "hum.know.basic.basic-logic-and-reasoning", "hum.know.basic.basic-linguistics", "hum.know.basic.basic-art-and-creativity"],
+  "modules": [
+    {"ordinal": 1, "id": "hum.know.basic.basic-communication.m01", "name": "Communication Diagnostic Engine", "priority": "critical", "status": "specified", "outputs": ["communication-profile"]},
+    {"ordinal": 2, "id": "hum.know.basic.basic-communication.m02", "name": "Foundations of Communication System", "priority": "critical", "status": "specified"},
+    {"ordinal": 3, "id": "hum.know.basic.basic-communication.m03", "name": "Verbal Communication System", "priority": "critical", "status": "specified"},
+    {"ordinal": 4, "id": "hum.know.basic.basic-communication.m04", "name": "Listening System", "priority": "critical", "status": "specified"},
+    {"ordinal": 5, "id": "hum.know.basic.basic-communication.m05", "name": "Nonverbal Communication System", "priority": "critical", "status": "specified"},
+    {"ordinal": 6, "id": "hum.know.basic.basic-communication.m06", "name": "Written Communication System", "priority": "critical", "status": "specified"},
+    {"ordinal": 7, "id": "hum.know.basic.basic-communication.m07", "name": "Public Speaking & Presentation System", "priority": "critical", "status": "specified"},
+    {"ordinal": 8, "id": "hum.know.basic.basic-communication.m08", "name": "Interpersonal Communication System", "priority": "critical", "status": "specified"},
+    {"ordinal": 9, "id": "hum.know.basic.basic-communication.m09", "name": "Persuasion & Influence System", "priority": "high", "status": "specified"},
+    {"ordinal": 10, "id": "hum.know.basic.basic-communication.m10", "name": "Digital Communication System", "priority": "critical", "status": "specified"},
+    {"ordinal": 11, "id": "hum.know.basic.basic-communication.m11", "name": "Intercultural Communication System", "priority": "critical", "status": "specified"},
+    {"ordinal": 12, "id": "hum.know.basic.basic-communication.m12", "name": "Group & Organizational Communication System", "priority": "high", "status": "specified"},
+    {"ordinal": 13, "id": "hum.know.basic.basic-communication.m13", "name": "Media Literacy & Communication System", "priority": "critical", "status": "specified"},
+    {"ordinal": 14, "id": "hum.know.basic.basic-communication.m14", "name": "Communication Across Contexts System", "priority": "high", "status": "specified"},
+    {"ordinal": 15, "id": "hum.know.basic.basic-communication.m15", "name": "Communication Development System", "priority": "high", "status": "specified"},
+    {"ordinal": 16, "id": "hum.know.basic.basic-communication.m16", "name": "Communication Ethics System", "priority": "critical", "status": "specified"},
+    {"ordinal": 17, "id": "hum.know.basic.basic-communication.m17", "name": "Communication Analytics & Adaptive Engine", "priority": "critical", "status": "specified", "ranking": false}
+  ]
+}
